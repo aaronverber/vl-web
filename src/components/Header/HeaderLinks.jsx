@@ -11,6 +11,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
 import { Apps, Work, People } from "@material-ui/icons";
+import EmailIcon from '@material-ui/icons/Email';
 
 // React icons
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
