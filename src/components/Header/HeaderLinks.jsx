@@ -55,7 +55,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Contact
+          <CloudDownload className={classes.icons} /> Careers
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
