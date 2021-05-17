@@ -19,7 +19,7 @@ class ProductSection extends React.Component {
     return (
       <div className={classes.section}>
         <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12} md={12}>
             <h2 className={classes.title}>Decrypt by VANNEVAR Labs</h2>
             <h3 className={classes.description}>
               A persistent, taskable sensor for foreign text data.
