@@ -44,6 +44,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
+        <Parallax image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={12}>
@@ -64,6 +65,7 @@ class LandingPage extends React.Component {
               </GridItem>
             </GridContainer>
           </div>
+        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
