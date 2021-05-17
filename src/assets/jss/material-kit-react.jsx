@@ -156,11 +156,17 @@ const defaultBoxShadow = {
 };
 
 const title = {
+  color: "#3C4858",
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
   fontFamily: `"Sarabun", "Times New Roman", serif`
 };
+
+const decrypt = {
+    color: "#fff",
+    fontFamily: "Saira Semi Condensed"
+}
 
 const cardTitle = {
   ...title,
