@@ -42,7 +42,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <Work className={classes.icons} /> Careers
+          <Apps className={classes.icons} /> Careers
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
