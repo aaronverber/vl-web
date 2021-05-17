@@ -71,13 +71,14 @@ class LandingPage extends React.Component {
             <ProductSection />
           </div>
         </div>
-        <Parallax 
+        <Parallax image={require("assets/img/farm_small.png")}>
         <div className={classNames(classes.main)}>
           <div className={classes.container}>
             <TeamSection />
             <WorkSection />
           </div>
         </div>
+        </Parallax>
         <Footer />
       </div>
     );
