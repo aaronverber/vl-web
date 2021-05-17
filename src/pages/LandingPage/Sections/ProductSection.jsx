@@ -20,7 +20,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={6}>
-            <h2 className={classes.title}>Decrypt by Vannevar Labs</h2>
+            <h2 className={classes.title}>Decrypt by VANNEVAR Labs</h2>
             <h5 className={classes.description}>
               This is the paragraph where you can write more details about your
               product. Keep you user engaged by providing meaningful
