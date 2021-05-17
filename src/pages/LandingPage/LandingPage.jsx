@@ -40,7 +40,7 @@ class LandingPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 400,
-            color: "black"
+            color: "white"
           }}
           {...rest}
         />
