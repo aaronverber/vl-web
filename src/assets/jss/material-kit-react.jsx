@@ -164,7 +164,7 @@ const title = {
 };
 
 const decrypt = {
-    color: "#fff",
+    color: "#ffffff",
     fontFamily: "Saira Semi Condensed"
 }
 
