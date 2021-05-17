@@ -20,7 +20,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="right">
           <GridItem xs={12} sm={12} md={8}>
-            <h1 className={classes.title}>VANNEVAR Decrypt</h1>
+            <h1>VANNEVAR Decrypt</h1>
             <h2>
               A persistent, taskable sensor for foreign text data.
             </h2>
