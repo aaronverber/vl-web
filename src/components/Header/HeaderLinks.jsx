@@ -52,7 +52,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <Apps className={classes.icons} /> Contact
+          <Email className={classes.icons} /> Contact
         </Button>
       </ListItem>
       
