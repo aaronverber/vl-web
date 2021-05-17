@@ -25,6 +25,8 @@ import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
+import gridVideo from "/src/assets/img/grid.mp4";
+
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -44,10 +46,10 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/farm_small.png")}>
+        <Parallax filter style={{alignItems: "flexStart"}} image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={12}>
+            <GridContainer style = {{paddingTop: 100}}>
+              <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
                 <h1 className={classes.title}>Cutting-edge artificial intelligence for critical national security problems.</h1>
                 <h4>
                   <b>VANNEVAR LABS</b> builds artificial intelligence (AI) and natural language processing (NLP) tools to power a safer America. Our mission brings together experts from Washington to Silicon Valley with decades of success solving our country’s biggest challenges.
@@ -67,6 +69,9 @@ class LandingPage extends React.Component {
           </div>
         </Parallax>
         <div id="decrypt" className={classNames(classes.main)}>
+        <video id="grid-video" autoplay loop>
+        <source src={gridVideo} type="video/mp4" />
+        </video>
             <div className={classes.container}>   
             <ProductSection />
             </div>
