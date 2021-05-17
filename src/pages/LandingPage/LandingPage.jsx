@@ -60,7 +60,6 @@ class LandingPage extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaPlay/>
                   Contact us
                 </Button>
               </GridItem>
