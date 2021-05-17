@@ -61,7 +61,7 @@ class LandingPage extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <FaPlay/>
-                  Watch video
+                  Contact us
                 </Button>
               </GridItem>
             </GridContainer>
