@@ -166,7 +166,7 @@ const title = {
 const decrypt = {
     color: "#ffffff",
     fontFamily: "Saira Semi Condensed"
-}
+};
 
 const cardTitle = {
   ...title,
