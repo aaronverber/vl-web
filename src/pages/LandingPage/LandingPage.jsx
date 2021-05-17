@@ -69,9 +69,8 @@ class LandingPage extends React.Component {
         <div id="decrypt" className={classNames(classes.main)}>
             <ProductSection />
         </div>
-        <div 
-          <div className={classes.container}>
-            
+        <div className={classNames(classes.main)}>
+          <div className={classes.container}>   
             <TeamSection />
             <WorkSection />
           </div>
