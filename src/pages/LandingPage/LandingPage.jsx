@@ -66,7 +66,7 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
-        <div className={classNames(classes.main)}>
+        <div id="decrypt" className={classNames(classes.main)}>
             <ProductSection />
           <div className={classes.container}>
             
