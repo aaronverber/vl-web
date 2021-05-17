@@ -18,7 +18,7 @@ class ProductSection extends React.Component {
     const { classes } = this.props;
     return (
       <div id="decrypt" className={classes.section}>
-        <GridContainer justify="center">
+        <GridContainer justify="right">
           <GridItem xs={12} sm={12} md={6}>
             <h2 className={classes.title}>Decrypt by VANNEVAR Labs</h2>
             <h3 className={classes.description}>
