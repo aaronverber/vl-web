@@ -216,6 +216,7 @@ export {
   cardHeader,
   defaultBoxShadow,
   title,
+  decrypt,
   cardTitle,
   cardLink,
   cardSubtitle
