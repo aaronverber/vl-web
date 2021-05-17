@@ -50,10 +50,7 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>YCutting-edge artificial intelligence for critical national security problems.</h1>
                 <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
+                  VANNEVAR LABS builds artificial intelligence (AI) and natural language processing (NLP) tools to power a safer America. Our mission brings together experts from Washington to Silicon Valley with decades of success solving our country’s biggest challenges.
                 </h4>
                 <br />
                 <Button
