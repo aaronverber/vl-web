@@ -185,8 +185,30 @@ form {
   align-items: center;
 }
 
+#people a{
+  color: #000;
+}
+
+#people a:visited{
+  color: #000;
+}
+
 #people img{
   margin-bottom: 10px;
+}
+
+#big-quote {
+  background: #002642;
+  height: 100%;
+  text-align: center;
+  padding: 60px 200px;
+  color: #fff;
+}
+
+#big-quote p{
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 40px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 960px) {
@@ -206,7 +228,17 @@ form {
 
   #people {
     padding-top: 20px;
+    text-align: center;
   }
+
+  #people p, #people h1, #people h2 {
+      text-align: center!important;
+  }
+
+  #big-quote{
+    padding: 10px 10px;
+  }
+
 }
 
 a[role=button] {

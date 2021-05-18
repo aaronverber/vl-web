@@ -78,8 +78,11 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main)}>
           <div className={classes.container}>   
             <TeamSection />
-            <WorkSection />
           </div>
+          <div id="big-quote">
+              <p>"We think that <b>the people that defend our country</b> should have access to <b>the best tools and technologies</b> to do their job. We know these people, we used to work with them, <b>and we want to help them</b>.”</p>
+ <h3>Brett Granberg, CEO</h3>
+            </div>
         </div>
         <Footer />
       </div>
