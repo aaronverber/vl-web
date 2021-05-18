@@ -6,8 +6,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+import vSymbol from "assets/img/symbol_blue.png";
+
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
 
@@ -24,15 +24,23 @@ function Footer({ ...props }) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        <div className={classes.left} id="footerLeft">
           <List className={classes.list}>
+          <ListItem className={classes.inlineBlock} xs={12} sm={12} md={8} lg={6} xl={6}>
+          <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+          <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+            </ListItem>
+          </List>
+        </div>
+        <div className={classes.right} id="footerRight">
+        <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                People
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -41,7 +49,7 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Careers
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -50,31 +58,10 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
+                Contact
               </a>
             </ListItem>
           </List>
-        </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
         </div>
       </div>
     </footer>

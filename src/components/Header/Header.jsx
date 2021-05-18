@@ -16,6 +16,8 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
 
+import vSymbol from "assets/img/symbol.png";
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -73,11 +75,13 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed
     });
-    const brandComponent = <Button className={classes.title}>{brand}</Button>;
     return (
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
-        <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h3>
+          <div>
+          <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+          <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+          </div>
           <Hidden smDown implementation="css">
             {rightLinks}
           </Hidden>

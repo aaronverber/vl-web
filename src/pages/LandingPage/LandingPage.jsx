@@ -23,7 +23,6 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 
 import gridVideo from "/src/assets/img/grid.mp4";
 
@@ -45,9 +44,9 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter style={{alignItems: "flexStart", marginTop: "-150px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
+        <Parallax filter style={{alignItems: "center", marginTop: "-150px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
-            <GridContainer style = {{paddingTop: 100}}>
+            <GridContainer>
               <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
                 <h1 className={classes.title}>Cutting-edge artificial intelligence for critical national security problems.</h1>
                 <h4>
@@ -80,9 +79,28 @@ class LandingPage extends React.Component {
             <TeamSection />
           </div>
           <div id="big-quote">
-              <p>"We think that <b>the people that defend our country</b> should have access to <b>the best tools and technologies</b> to do their job. We know these people, we used to work with them, <b>and we want to help them</b>.”</p>
- <h3>Brett Granberg, CEO</h3>
-            </div>
+            <p>"We think that <b>the people that defend our country</b> should have access to <b>the best tools and technologies</b> to do their job. We know these people, we used to work with them, <b>and we want to help them</b>.”</p>
+            <h3>Brett Granberg, CEO</h3>
+          </div>
+        </div>
+        <div id="news" className={classes.main}>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+              <h1 className={classes.title} style={{textAlign: "left"}}>News & Announcements</h1>
+            </GridItem>
+          </GridContainer>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6} lg={6} xl={6}>
+              <h3>Vannevar Labs Seeks to Support Intel Agencies with AI Tech</h3>
+              <h4>ExecutiveBiz, September 27, 2019</h4>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={6} lg={6} xl={6}>
+              <h3>Vannevar Labs comes out of stealth to bring best-in-class AI tech to national security agencies</h3>
+              <h4>TechCrunch, Sepember 25, 2019</h4>
+            </GridItem>
+          </GridContainer>
+          </div>
         </div>
         <Footer />
       </div>
