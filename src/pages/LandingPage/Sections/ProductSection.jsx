@@ -1,24 +1,14 @@
 import React from "react";
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-
-
-// core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-
-
 import Button from "components/CustomButtons/Button.jsx";
-
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
 class ProductSection extends React.Component {
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.section}>
-        <GridContainer justify="center">
-          <GridItem>
+      <div style = {{backgroundColor: "rgba(0,0,0,0.5)", height: "600px", display: "flex"}} className="product-section">
+        <div class="product" justify="center">
+          <div class="product-item">
             <h1 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h1>
             <h2>
               A persistent, taskable sensor for foreign text data.
@@ -33,8 +23,8 @@ class ProductSection extends React.Component {
                 >
                   Contact us
                 </Button>
-          </GridItem>
-        </GridContainer>
+          </div>
+        </div>
       </div>
     );
   }

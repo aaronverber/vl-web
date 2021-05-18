@@ -39,14 +39,13 @@ class LandingPage extends React.Component {
           routes={dashboardRoutes}
           brand="Vannevar Labs"
           rightLinks={<HeaderLinks />}
-          fixed
           changeColorOnScroll={{
             height: 400,
             color: "white"
           }}
           {...rest}
         />
-        <Parallax filter style={{alignItems: "flexStart"}} image={require("assets/img/farm_small.png")}>
+        <Parallax filter style={{alignItems: "flexStart", marginTop: "-120px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
             <GridContainer style = {{paddingTop: 100}}>
               <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
@@ -69,10 +68,10 @@ class LandingPage extends React.Component {
           </div>
         </Parallax>
         <div id="decrypt" className={classNames(classes.main)}>
-        <video id="grid-video" autoplay loop>
+        <video id="grid-video" autoPlay muted loop>
         <source src={gridVideo} type="video/mp4" />
         </video>
-            <div className={classes.container}>   
+            <div style = {{height: "600px", color: "white"}}>   
             <ProductSection />
             </div>
         </div>
