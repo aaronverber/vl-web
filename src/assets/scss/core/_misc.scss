@@ -166,7 +166,30 @@ form {
   text-align: center;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1000px) {
+#people{
+  text-align: left;
+}
+
+#people p{
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+}
+
+#peopleall {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+#people img{
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 960px) {
   h1 {
     font-size: 38px;
   }
@@ -180,11 +203,16 @@ form {
   h2{
     font-size: 24px;
   }
+
+  #people {
+    padding-top: 20px;
+  }
 }
 
 a[role=button] {
   text-transform: none!important;
   font-size: 14px;
+  margin: 20px 0;
 }
 
 header h3{

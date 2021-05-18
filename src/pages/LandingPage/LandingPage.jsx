@@ -45,7 +45,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter style={{alignItems: "flexStart", marginTop: "-120px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
+        <Parallax filter style={{alignItems: "flexStart", marginTop: "-150px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
             <GridContainer style = {{paddingTop: 100}}>
               <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
