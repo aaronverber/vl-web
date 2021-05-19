@@ -22,8 +22,8 @@ function Footer({ ...props }) {
     [classes.footerWhiteFont]: whiteFont
   });
   return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
+    <footer id="footerMain" className={footerClasses}>
+      <div id="footerInner" className={classes.container}>
         <div className={classes.left} id="footerLeft">
           <List className={classes.list}>
           <ListItem className={classes.inlineBlock} xs={12} sm={12} md={8} lg={6} xl={6}>

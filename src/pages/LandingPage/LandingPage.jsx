@@ -16,7 +16,6 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
@@ -33,6 +32,7 @@ class LandingPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        <div id="top" style={{alignItems: "center"}}>
         <Header
           color="transparent"
           routes={dashboardRoutes}
@@ -44,7 +44,6 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter style={{alignItems: "center", marginTop: "-150px", zIndex: -5}} image={require("assets/img/farm_small.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
@@ -52,7 +51,6 @@ class LandingPage extends React.Component {
                 <h4>
                   <b>VANNEVAR LABS</b> builds artificial intelligence (AI) and natural language processing (NLP) tools to power a safer America. Our mission brings together experts from Washington to Silicon Valley with decades of success solving our country’s biggest challenges.
                 </h4>
-                <br />
                 <Button
                   color="info"
                   size="lg"
@@ -65,14 +63,14 @@ class LandingPage extends React.Component {
               </GridItem>
             </GridContainer>
           </div>
-        </Parallax>
+        </div>
         <div id="decrypt" className={classNames(classes.main)}>
-        <video id="grid-video" autoPlay muted loop>
-        <source src={gridVideo} type="video/mp4" />
-        </video>
-            <div style = {{height: "600px", color: "white"}}>   
+          <video id="grid-video" autoPlay muted loop>
+            <source src={gridVideo} type="video/mp4" />
+          </video>
+          <div style = {{color: "white"}}>   
             <ProductSection />
-            </div>
+          </div>
         </div>
         <div className={classNames(classes.main)}>
           <div className={classes.container}>   
