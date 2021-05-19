@@ -143,6 +143,14 @@ form {
   justify-content: center;
 }
 
+#decryptLeft{
+  padding-right: 40px;
+}
+
+#decryptRight{
+  margin-left: 40px;
+}
+
 #grid-video{
   margin:0 auto;
   min-width: 100%;
@@ -266,6 +274,10 @@ form {
 
   #decryptLeft img {
     display: none;
+  }
+
+  #decryptRight{
+    margin-left: 0px;
   }
 }
 

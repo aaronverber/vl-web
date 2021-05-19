@@ -4,16 +4,16 @@ import {Route, Router, Switch} from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.4.0";
 // pages for this product
-import LandingPage from "./LandingPage/LandingPage.jsx";
+import People from "./People.jsx";
 
 let hist = createMemoryHistory();
 
+console.log("This is a test.");
+
 export default () => (
   <Router history={hist}>
-    <Switch>
-      <Route exact path="/">
-        <LandingPage />
+      <Route path="/people">
+        <People />
       </Route>
-    </Switch>
   </Router>
 );
