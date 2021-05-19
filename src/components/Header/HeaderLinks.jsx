@@ -28,9 +28,8 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="/people"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <People className={classes.icons} /> People
@@ -40,7 +39,6 @@ function HeaderLinks({ ...props }) {
         <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <Work className={classes.icons} /> Careers
@@ -50,7 +48,6 @@ function HeaderLinks({ ...props }) {
         <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <EmailIcon className={classes.icons} /> Contact

@@ -21,7 +21,7 @@ class People extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        <div id="top" style={{alignItems: "center"}}>
+        <div id="vannevar" style={{alignItems: "center"}}>
         <Header
           color="transparent"
           routes={dashboardRoutes}
@@ -35,11 +35,11 @@ class People extends React.Component {
         />
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
-                <h1 className={classes.title}>Cutting-edge bartificial intelligence for critical national security problems.</h1>
-                <h4>
-                  <b>VANNEVAR LABS</b> builds artificial intelligence (AI) and natural language processing (NLP) tools to power a safer America. Our mission brings together experts from Washington to Silicon Valley with decades of success solving our country’s biggest challenges.
-                </h4>
+              <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
+                <h1 className={classes.title}>Our team won't stop until mission accomplished.</h1>
+                <p>
+                  <b>VANNEVAR LABS</b> brings together a multi-disciplinary task force with a wide range of experiences, over X years of military service, engineers from some of the top tech startups, and a passion for delivering mission critical tools that protect our country from worldwide threats. [A line here, something about the type of folks we’re looking for or just something about overall apply to our company, etc....]
+                </p>
                 <Button
                   color="info"
                   size="lg"
@@ -47,7 +47,7 @@ class People extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Contact us
+                  Join our team
                 </Button>
               </GridItem>
             </GridContainer>
