@@ -8,7 +8,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
@@ -65,7 +64,6 @@ class Header extends React.Component {
       color,
       rightLinks,
       leftLinks,
-      brand,
       fixed,
       absolute
     } = this.props;
@@ -79,7 +77,7 @@ class Header extends React.Component {
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
           <div>
-          <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+          <img src={vSymbol} alt=" " style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
           <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
           </div>
           <Hidden smDown implementation="css">

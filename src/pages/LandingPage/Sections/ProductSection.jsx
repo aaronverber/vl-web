@@ -9,9 +9,9 @@ import lineart from "assets/img/lineart.svg"
 
 class ProductSection extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes } = this.props;
     return (
-      <div className="product-section">
+      <div id="product-section" className={classes.container}>
         <GridContainer style = {{width: "100%", display: "flex", padding: "0 20px", justifyContent: "center", alignItems: "center", flexWrap: "wrap-reverse"}}>
           <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
             <div id="decryptLeft">
@@ -20,8 +20,8 @@ class ProductSection extends React.Component {
           </GridItem>
           <GridItem xs={12} sm={12} md={4} lg={6} xl={6}>
             <div id="decryptRight">
-            <div class="product" justify="center">
-          <div class="product-item">
+            <div className="product" justify="center">
+          <div className="product-item">
             <h1 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h1>
             <h2>
               A persistent, taskable sensor for foreign text data.
