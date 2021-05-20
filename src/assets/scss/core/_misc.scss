@@ -270,6 +270,58 @@ form {
   padding-bottom: 15px;
 }
 
+#bio-holder {
+  background: #002642;
+  height: 100%;
+  text-align: center;
+  padding: 60px 0 0 0;
+  color: #fff;
+}
+
+#bio-holder-next {
+  background: #fff;
+  height: 100%;
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+#bio-holder-next p, #bio-holder-next h2, #bio-holder-next h3 {
+  color: #000;
+}
+
+.bio {
+  text-align: left;
+}
+
+.bio h2{
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bio h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px 0px 10px;
+}
+
+.bio p{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 16px;
+}
+
+.bio img{
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 255px;
+  max-width: 255px;
+  object-fit: cover;
+  object-position: top center;
+}
+
 @media screen and (min-width: 400px) and (max-width: 960px) {
   h1 {
     font-size: 38px;

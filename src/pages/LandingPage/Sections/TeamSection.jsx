@@ -11,7 +11,7 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
+import team1 from "assets/img/faces/brett.png";
 
 class TeamSection extends React.Component {
   render() {
