@@ -9,11 +9,5 @@ import LandingPage from "./LandingPage/LandingPage.jsx";
 let hist = createMemoryHistory();
 
 export default () => (
-  <Router history={hist}>
-    <Switch>
-      <Route exact path="/">
         <LandingPage />
-      </Route>
-    </Switch>
-  </Router>
 );

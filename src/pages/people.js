@@ -8,12 +8,9 @@ import People from "./People.jsx";
 
 let hist = createMemoryHistory();
 
-console.log("This is a test.");
+console.log("This is a test that it read people.js. It did!");
 
 export default () => (
-  <Router history={hist}>
-      <Route path="/people">
+
         <People />
-      </Route>
-  </Router>
 );

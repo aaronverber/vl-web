@@ -292,6 +292,7 @@ form {
   height: 100%;
   text-align: center;
   padding: 60px 0 0 0;
+  max-width: 100%;
 }
 
 #bio-holder-next h1{
@@ -333,8 +334,6 @@ form {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
-  height: 255px;
-  max-width: 255px;
   object-fit: cover;
   object-position: top center;
 }
@@ -452,7 +451,7 @@ footer #blue {
 }
 
 #footerLeft{
-  padding-top: 20px;
+  padding-top: 25px;
 
 }
 

@@ -10,22 +10,22 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
 import brett from "assets/img/faces/brett.png";
-import nini from "assets/img/faces/nini.jpeg";
+import nini from "assets/img/faces/nini.png";
 import danny from "assets/img/faces/danny.png";
 import nathan from "assets/img/faces/nathan.png";
 
-import nate from "assets/img/faces/nate.jpeg";
-import alex from "assets/img/faces/alex.jpeg";
-import nick from "assets/img/faces/nick.jpeg";
+import nate from "assets/img/faces/nate.png";
+import alex from "assets/img/faces/alex.png";
+import nick from "assets/img/faces/nick.png";
 import eric from "assets/img/faces/eric.png";
 
-import erin from "assets/img/faces/erin.jpeg";
-import scott from "assets/img/faces/scott.jpeg";
-import ngoc from "assets/img/faces/ngoc.jpeg";
-import harrison from "assets/img/faces/harrison.jpeg";
+import erin from "assets/img/faces/erin.png";
+import scott from "assets/img/faces/scott.png";
+import ngoc from "assets/img/faces/ngoc.png";
+import harrison from "assets/img/faces/harrison.png";
 
-import ian from "assets/img/faces/Ian.jpeg";
-import john from 'assets/img/faces/John.jpeg';
+import ian from "assets/img/faces/ian.png";
+import john from 'assets/img/faces/john.png';
 
 
 const dashboardRoutes = [];
@@ -159,8 +159,8 @@ class People extends React.Component {
                 <p>Ngoc Do is a first generation college graduate, originally from Vietnam and raised in Seattle. He has been programming since high school and has interned and worked at companies such as Macy's, Avanade, Liberty Mutual, and Limeade.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-                <h2>Scott McCreary</h2>
-                <h3>Software Engineer</h3>
+                <h2>Harrison Nguyen</h2>
+                <h3>Business Operations and Strategy</h3>
                 <img src={harrison} alt="..." />
                 <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
               </GridItem>
