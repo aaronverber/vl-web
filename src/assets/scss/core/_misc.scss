@@ -101,7 +101,7 @@ a {
   background-color: transparent;
   &:hover,
   &:focus {
-    color: darken(white, 25%);
+    color: #9BF4B2;
     text-decoration: none;
   }
 }
@@ -112,9 +112,13 @@ header a {
   background-color: transparent;
   &:hover,
   &:focus {
-    color: darken(white, 25%);
+    color: #9BF4B2;
     text-decoration: none;
   }
+}
+
+#logo a:hover svg path {
+  fill: #9BF4B2;
 }
 
 footer a {
@@ -389,6 +393,7 @@ form {
 @media screen and (max-width: 500px) {
   #footerInner{
     flex-direction: column!important;
+    align-items: center;
   }
 
   #decryptLeft img {
@@ -445,6 +450,23 @@ a[role=button] {
   font-size: 14px;
   margin: 20px 0;
 }
+
+#top-button {
+  background-color: #68C4FF;
+  color: #000;
+}
+
+#decrypt a[role=button] {
+  background-color: #68C4FF;
+  color: #000;
+}
+
+#people a[role=button] {
+  background-color: #68C4FF;
+  color: #000;
+}
+
+
 
 header h3{
   margin: 10px 0 10px 0;

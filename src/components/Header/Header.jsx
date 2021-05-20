@@ -15,7 +15,7 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
 
-import vSymbol from "assets/img/symbol.png";
+import vSymbol from "assets/img/logosvg.svg";
 
 class Header extends React.Component {
   constructor(props) {
@@ -55,9 +55,11 @@ class Header extends React.Component {
     return (
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
-          <div>
+          <div id="logo">
             <a href= "/">
-              <img src={vSymbol} alt=" " style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+              <svg viewBox = "0 0 129 173" alt=" " style={{width: "35px", height: "auto", display: "inline", verticalAlign: "middle", marginTop: "-8px"}}>
+                <path d="M39 103.5L0 0H77.5L39 103.5Z M64.5 172.5L44.5 118.5L65.2212 62.5H105.5L64.5 172.5Z M69 52.5H109L129 0H88.5L69 52.5Z" fill="white"/>
+              </svg>
               <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
             </a>
           </div>
