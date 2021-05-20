@@ -22,7 +22,10 @@ import eric from "assets/img/faces/eric.png";
 import erin from "assets/img/faces/erin.jpeg";
 import scott from "assets/img/faces/scott.jpeg";
 import ngoc from "assets/img/faces/ngoc.jpeg";
-import harrison from "assets/img/faces/harrison.jpeg"
+import harrison from "assets/img/faces/harrison.jpeg";
+
+import ian from "assets/img/faces/ian.jpeg";
+import john from 'assets/img/faces/john.jpeg';
 
 
 const dashboardRoutes = [];
@@ -64,8 +67,11 @@ class People extends React.Component {
             </GridContainer>
           </div>
         </div>
+
+
         <div id="bio-holder">
         <div className={classes.container}>
+          <h1>Our team</h1>
             <GridContainer style = {{justifyContent: "center"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <h2>Brett Granberg</h2>
@@ -105,7 +111,7 @@ class People extends React.Component {
                 <h2>Nate Bush</h2>
                 <h3>Engineering Manager</h3>
                 <img src={nate} alt="..." />
-                <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s >1 billion device users.</p>
+                <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s over 1-billion device users.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <h2>Alex Williams</h2>
@@ -157,6 +163,26 @@ class People extends React.Component {
                 <h3>Software Engineer</h3>
                 <img src={harrison} alt="..." />
                 <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+
+        <div id="bio-holder-next">
+        <div className={classes.container}>
+        <h1>Our advisors</h1>
+            <GridContainer>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <h2>John Doyle</h2>
+                <h3>Head of National Security Business at Palantir</h3>
+                <img src={john} alt="..." />
+                <p>John Doyle run Palantir’s National Security business and advises Vannevar on Sales. John graduated from Harvard Law School and served in the US Army Special Forces.</p>
+              </GridItem>
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <h2>Alex Williams</h2>
+                <h3>CTO and Co-founder at Opendoor</h3>
+                <img src={ian} alt="..." />
+                <p>Ian Wong is CTO and co-founder of Opendoor and advises Vannevar on Engineering and Product. Previously, he built machine learning applications at Square and Prismatic. He earned degrees in Electrical Engineering and Statistics from Stanford University. </p>
               </GridItem>
             </GridContainer>
           </div>

@@ -22,7 +22,7 @@ function Footer({ ...props }) {
     [classes.footerWhiteFont]: whiteFont
   });
   return (
-    <footer id="footerMain" className={footerClasses}>
+    <footer id="footerMain">
       <div id="footerInner" className={classes.container}>
         <div className={classes.left} id="footerLeft">
           <List className={classes.list}>

@@ -278,11 +278,26 @@ form {
   color: #fff;
 }
 
+#bio-holder h1{
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
 #bio-holder-next {
   background: #fff;
   height: 100%;
   text-align: center;
   padding: 60px 0 0 0;
+}
+
+#bio-holder-next h1{
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  color: #000;
 }
 
 #bio-holder-next p, #bio-holder-next h2, #bio-holder-next h3 {
@@ -411,6 +426,14 @@ header h3{
 footer {
   background-color: #fff;
   color: #002642;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+}
+
+footer #blue {
+  background-color: #002642;
+  color: #fff;
   padding: 0px;
   margin: 0px;
   align-items: center;
