@@ -12,6 +12,13 @@ import Button from "components/CustomButtons/Button.jsx";
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
 import team1 from "assets/img/faces/brett.png";
+import brett from "assets/img/faces/brett.png";
+import nini from "assets/img/faces/nini.png";
+import danny from "assets/img/faces/danny.png";
+import nathan from "assets/img/faces/nathan.png";
+
+import nate from "assets/img/faces/nate.png";
+import alex from "assets/img/faces/alex.png";
 
 class TeamSection extends React.Component {
   render() {
@@ -42,22 +49,22 @@ class TeamSection extends React.Component {
         <GridItem xs={12} sm={6} md={6} lg={6} xl={6} className={classes.itemGrid}>
           <GridContainer id="photos" style={{justifyContent: "space-between"}}>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={brett} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={nini} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={danny} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={nathan} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={nate} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses} />
+              <img src={alex} alt="..." className={imageClasses} />
             </GridItem>
           </GridContainer>
         </GridItem>

@@ -27,8 +27,10 @@ function Footer({ ...props }) {
         <div className={classes.left} id="footerLeft">
           <List className={classes.list}>
           <ListItem className={classes.inlineBlock} xs={12} sm={12} md={8} lg={6} xl={6}>
-          <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
-          <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+            <a href="/">
+              <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+              <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+            </a>
             </ListItem>
           </List>
         </div>
@@ -36,16 +38,15 @@ function Footer({ ...props }) {
         <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="/people"
                 className={classes.block}
-                target="_blank"
               >
                 People
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="https://jobs.lever.co/vannevarlabs-2"
                 className={classes.block}
                 target="_blank"
               >
@@ -56,7 +57,6 @@ function Footer({ ...props }) {
               <a
                 href="http://blog.creative-tim.com/"
                 className={classes.block}
-                target="_blank"
               >
                 Contact
               </a>

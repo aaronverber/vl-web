@@ -24,7 +24,6 @@ class Header extends React.Component {
       mobileOpen: false
     };
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
-    this.headerColorChange = this.headerColorChange.bind(this);
   }
   handleDrawerToggle() {
     this.setState({ mobileOpen: !this.state.mobileOpen });
@@ -34,25 +33,7 @@ class Header extends React.Component {
       window.addEventListener("scroll", this.headerColorChange);
     }
   }
-  headerColorChange() {
-    const { classes, color, changeColorOnScroll } = this.props;
-    const windowsScrollTop = typeof window !== 'undefined' && window.pageYOffset;
-    if (windowsScrollTop > changeColorOnScroll.height) {
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.remove(classes[color]);
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.add(classes[changeColorOnScroll.color]);
-    } else {
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.add(classes[color]);
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.remove(classes[changeColorOnScroll.color]);
-    }
-  }
+
   componentWillUnmount() {
     if (this.props.changeColorOnScroll) {
       typeof window !== 'undefined' && window.removeEventListener("scroll", this.headerColorChange);
@@ -64,21 +45,21 @@ class Header extends React.Component {
       color,
       rightLinks,
       leftLinks,
-      fixed,
       absolute
     } = this.props;
     const appBarClasses = classNames({
       [classes.appBar]: true,
       [classes[color]]: color,
-      [classes.absolute]: absolute,
-      [classes.fixed]: fixed
+      [classes.absolute]: absolute
     });
     return (
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
           <div>
-          <img src={vSymbol} alt=" " style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
-          <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+            <a href= "/">
+              <img src={vSymbol} alt=" " style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
+              <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
+            </a>
           </div>
           <Hidden smDown implementation="css">
             {rightLinks}
@@ -134,7 +115,6 @@ Header.propTypes = {
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
   brand: PropTypes.string,
-  fixed: PropTypes.bool,
   absolute: PropTypes.bool,
   // this will cause the sidebar to change the color from
   // this.props.color (see above) to changeColorOnScroll.color
@@ -142,20 +122,6 @@ Header.propTypes = {
   // changeColorOnScroll.height and then when it is smaller than
   // changeColorOnScroll.height change it back to
   // this.props.color (see above)
-  changeColorOnScroll: PropTypes.shape({
-    height: PropTypes.number.isRequired,
-    color: PropTypes.oneOf([
-      "primary",
-      "info",
-      "success",
-      "warning",
-      "danger",
-      "transparent",
-      "white",
-      "rose",
-      "dark"
-    ]).isRequired
-  })
 };
 
 export default withStyles(headerStyle)(Header);

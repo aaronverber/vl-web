@@ -37,7 +37,8 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="https://jobs.lever.co/vannevarlabs-2"
+          target="_blank"
           color="transparent"
           className={classes.navLink}
         >
@@ -46,7 +47,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="https://jobs.lever.co/vannevarlabs-2"
           color="transparent"
           className={classes.navLink}
         >

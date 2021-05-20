@@ -101,7 +101,29 @@ a {
   background-color: transparent;
   &:hover,
   &:focus {
-    color: darken($link-color, 5%);
+    color: darken(white, 25%);
+    text-decoration: none;
+  }
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: darken(white, 25%);
+    text-decoration: none;
+  }
+}
+
+footer a {
+  color: #002642;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: darken(white, 25%);
     text-decoration: none;
   }
 }
@@ -208,7 +230,11 @@ form {
 }
 
 #big-quote {
-  background: #002642;
+  background: url("../../assets/img/logosvg.svg"), #002642;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 75%;
+  background-blend-mode: overlay;
   height: 100%;
   text-align: center;
   padding: 60px 200px;
@@ -422,6 +448,10 @@ a[role=button] {
 
 header h3{
   margin: 10px 0 10px 0;
+}
+
+header a:visited{
+  color: white;
 }
 
 footer {
