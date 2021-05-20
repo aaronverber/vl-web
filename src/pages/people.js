@@ -1,6 +1,6 @@
 import React from "react";
 import {createMemoryHistory} from "history";
-import {Route, Router, Switch} from "react-router-dom";
+import {Route, Router} from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.4.0";
 // pages for this product
