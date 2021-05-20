@@ -1,3 +1,4 @@
 stackbitVersion: ~0.3.0
 ssgName: gatsby
 publishDir: public
+nodeVersion: 12.13
