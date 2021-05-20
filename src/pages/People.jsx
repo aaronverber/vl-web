@@ -24,8 +24,8 @@ import scott from "assets/img/faces/scott.jpeg";
 import ngoc from "assets/img/faces/ngoc.jpeg";
 import harrison from "assets/img/faces/harrison.jpeg";
 
-import ian from "assets/img/faces/ian.jpeg";
-import john from 'assets/img/faces/john.jpeg';
+import ian from "assets/img/faces/Ian.jpeg";
+import john from 'assets/img/faces/John.jpeg';
 
 
 const dashboardRoutes = [];
