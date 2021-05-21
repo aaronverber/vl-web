@@ -38,6 +38,7 @@ class Contact extends React.Component {
               </GridItem>
             <GridItem  xs={12} sm={8} md={6} lg={6} xl={6}>
             <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <GridContainer>
                 <GridItem xs={12} sm={12} md={12} style = {{backgroundColor: "rgba(0,0,0,0.5)"}}>
                   <CustomInput

@@ -45,13 +45,13 @@ function Footer({ ...props }) {
               </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <Link
-                to="https://jobs.lever.co/vannevarlabs-2"
+              <a
+                href="https://jobs.lever.co/vannevarlabs-2"
                 className={classes.block}
                 target="_blank"
               >
                 Careers
-              </Link>
+              </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <Link
