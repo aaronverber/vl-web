@@ -1,12 +1,10 @@
 module.exports = {
-  pathPrefix: `/mini-gatsbyv2-material-kit-react`,
   siteMetadata: {
     title: 'Vannevar Labs',
   },
   plugins: [
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
     'gatsby-plugin-sass',
     'gatsby-plugin-material-ui',
     {
