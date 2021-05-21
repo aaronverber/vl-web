@@ -7,7 +7,7 @@ import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
 import vSymbol from "assets/img/symbol_blue.png";
-
+import {Link} from "gatsby";
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
 
@@ -27,39 +27,39 @@ function Footer({ ...props }) {
         <div className={classes.left} id="footerLeft">
           <List className={classes.list}>
           <ListItem className={classes.inlineBlock} xs={12} sm={12} md={8} lg={6} xl={6}>
-            <a href="/">
+            <Link to="/">
               <img src={vSymbol} style={{height: "40px", width: "auto", display: "inline", marginTop: "-10px"}}></img>
               <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>
-            </a>
+            </Link>
             </ListItem>
           </List>
         </div>
         <div className={classes.right} id="footerRight">
         <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/people"
+              <Link
+                to="/people"
                 className={classes.block}
               >
                 People
-              </a>
+              </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://jobs.lever.co/vannevarlabs-2"
+              <Link
+                to="https://jobs.lever.co/vannevarlabs-2"
                 className={classes.block}
                 target="_blank"
               >
                 Careers
-              </a>
+              </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/"
+              <Link
+                to="/contact"
                 className={classes.block}
               >
                 Contact
-              </a>
+              </Link>
             </ListItem>
           </List>
         </div>

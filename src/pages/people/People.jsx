@@ -101,7 +101,7 @@ class People extends React.Component {
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img src={nathan} alt="..." />
                 <h2>Nathan Hartman</h2>
-                <h3>Engingeering Manager</h3>
+                <h3>Engineering Manager</h3>
 
                 <p>Nathan Hartman has more than a decade of experience as a software developer, where he’s worked on everything from frontend to embedded systems at several companies, including a company he co-founded as CTO.</p>
               </GridItem>

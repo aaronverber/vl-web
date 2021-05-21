@@ -70,6 +70,7 @@ function CustomInput({ ...props }) {
           underline: underlineClasses
         }}
         id={id}
+        name={id}
         {...inputProps}
       />
     </FormControl>

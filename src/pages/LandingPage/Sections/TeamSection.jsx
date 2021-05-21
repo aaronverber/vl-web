@@ -19,6 +19,8 @@ import nathan from "assets/img/faces/nathan.png";
 import nate from "assets/img/faces/nate.png";
 import alex from "assets/img/faces/alex.png";
 
+import { Link } from "gatsby";
+
 class TeamSection extends React.Component {
   render() {
     const { classes } = this.props;
@@ -37,13 +39,12 @@ class TeamSection extends React.Component {
           <Button
                   color="info"
                   size="md"
-                  href="/people"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  href="/people"
                   style={{marginRight: "10px"}}
                 >
-                  Meet the team
-                </Button> <div style={{display: "inline-block", marginBottom: "20px", paddingLeft: "10px"}}><a href="https://jobs.lever.co/vannevarlabs-2"><u>Explore careers at Vannevar Labs</u></a></div>
+                  <Link to ="/people">Meet the team</Link>
+                </Button> <div style={{display: "inline-block", marginBottom: "20px"}}><a id="jobs" href="https://jobs.lever.co/vannevarlabs-2"><u>Explore careers at Vannevar Labs</u></a></div>
         </GridItem>
         <GridItem xs={12} sm={6} md={6} lg={6} xl={6} className={classes.itemGrid}>
           <GridContainer id="photos" style={{justifyContent: "space-between"}}>

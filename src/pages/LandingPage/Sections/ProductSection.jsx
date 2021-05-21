@@ -7,6 +7,8 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import lineart from "assets/img/lineart.svg"
 
+import {Link} from "gatsby";
+
 class ProductSection extends React.Component {
   render() {
     const { classes } = this.props;
@@ -34,7 +36,7 @@ class ProductSection extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Contact us
+                  <Link to="/contact">Contact us</Link>
                 </Button>
           </div>
         </div>

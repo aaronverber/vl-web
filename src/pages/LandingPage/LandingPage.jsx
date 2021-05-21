@@ -25,6 +25,8 @@ import TeamSection from "./Sections/TeamSection.jsx";
 
 import gridVideo from "/src/assets/img/grid.mp4";
 
+import { Link } from "gatsby";
+
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -53,13 +55,12 @@ class LandingPage extends React.Component {
                 </h4>
                 <Button
                   color="info"
+                  href="/contact"
                   id="top-button"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Contact us
+                  <Link to="/contact">Contact us</Link>
                 </Button>
               </GridItem>
             </GridContainer>
@@ -91,11 +92,11 @@ class LandingPage extends React.Component {
           </GridContainer>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6} lg={6} xl={6}>
-              <h3>Vannevar Labs Seeks to Support Intel Agencies with AI Tech</h3>
+              <h3><a target="_blank" rel="noreferrer" href="https://blog.executivebiz.com/2019/09/vannevar-labs-seeks-to-support-intell-agencies-with-ai-tech-brett-granberg-quoted/">Vannevar Labs Seeks to Support Intel Agencies with AI Tech</a></h3>
               <h4>ExecutiveBiz, September 27, 2019</h4>
             </GridItem>
             <GridItem xs={12} sm={12} md={6} lg={6} xl={6}>
-              <h3>Vannevar Labs comes out of stealth to bring best-in-class AI tech to national security agencies</h3>
+              <h3><a target="_blank" rel="noreferrer" href="https://techcrunch.com/2019/09/25/vannevar-labs-comes-out-of-stealth-to-bring-best-in-class-ai-tech-to-national-security-agencies/">Vannevar Labs comes out of stealth to bring best-in-class AI tech to national security agencies</a></h3>
               <h4>TechCrunch, Sepember 25, 2019</h4>
             </GridItem>
           </GridContainer>

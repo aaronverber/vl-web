@@ -117,6 +117,12 @@ header a {
   }
 }
 
+header button {
+  text-transform: none !important;
+  font-size: 14px!important;
+  margin: 20px 0!important;
+}
+
 #logo a:hover svg path {
   fill: #9BF4B2;
 }
@@ -160,7 +166,7 @@ form {
     text-align: left;
 }
 
-#decrypt h1, h2, h3, h4 {
+#decrypt h1, #decrypt h2, #decrypt h3, #decrypt h4 {
   padding: 10px;
 }
 
@@ -169,9 +175,7 @@ form {
   justify-content: center;
 }
 
-#decryptLeft{
-  padding-right: 40px;
-}
+
 
 #decryptRight{
   margin-left: 40px;
@@ -200,6 +204,12 @@ form {
   height: 100%;
   padding: 50px 0;
 
+}
+
+.product-item{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 #people{
@@ -276,8 +286,20 @@ form {
   font-weight: 700;
 }
 
+#news a{
+  color: white;
+}
+
+#news a:visited {
+  color: white;
+}
+
+#news a:hover{
+  text-decoration: underline #9BF4B2;
+}
+
 #top{
-  background: url("../../assets/img/farm_small.png"), rgba(0,0,0,0.3);
+  background: url("../../assets/img/farm_small.png"), rgba(0,0,0,0.2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -392,10 +414,12 @@ form {
   color: white;
 }
 
-#contact button{
+#contact form button{
   margin-top: 20px;
   background-color: #68C4FF;
   color: #000;
+  text-transform: none;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 960px) {
@@ -409,6 +433,10 @@ form {
 
   #decrypt h1, #decrypt h2, #decrypt a {
     text-align: center;
+  }
+
+  #decrypt h2{
+    margin: 0px;
   }
 
   #vannevar{
@@ -440,6 +468,12 @@ form {
     background-size: cover;
     background-position: top right;
     background-blend-mode: multiply;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .product-item{
+    align-items: center;
   }
 }
 
@@ -486,14 +520,28 @@ a[role=button] {
   color: #000;
 }
 
+#top-button a:visited{
+  color: #000;
+}
+
 #decrypt a[role=button] {
   background-color: #68C4FF;
+  color: #000;
+}
+
+#decrypt a[role=button] a:visited{
   color: #000;
 }
 
 #people a[role=button] {
   background-color: #68C4FF;
   color: #000;
+  text-transform: none;
+  font-size: 14px;
+}
+
+#jobs:hover{
+  text-decoration: underline #000 2px!important;
 }
 
 

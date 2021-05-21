@@ -13,8 +13,6 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { Apps, Work, People } from "@material-ui/icons";
 import EmailIcon from '@material-ui/icons/Email';
 
-// React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -27,12 +25,12 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+        
         <Button
-          href="/people"
           color="transparent"
           className={classes.navLink}
         >
-          <People className={classes.icons} /> People
+          <People className={classes.icons} /><Link to="/people">People</Link>
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -47,11 +45,10 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://jobs.lever.co/vannevarlabs-2"
           color="transparent"
           className={classes.navLink}
         >
-          <EmailIcon className={classes.icons} /> Contact
+          <EmailIcon className={classes.icons} /> <Link to="/contact">Contact</Link>
         </Button>
       </ListItem>
       
