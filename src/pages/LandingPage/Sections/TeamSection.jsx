@@ -38,13 +38,13 @@ class TeamSection extends React.Component {
           <Button
                   color="info"
                   size="md"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="/people"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{marginRight: "10px"}}
                 >
                   Meet the team
-                </Button> <div style={{display: "inline-block", marginBottom: "20px"}}><a href="/">Explore careers at Vannevar Labs</a></div>
+                </Button> <div style={{display: "inline-block", marginBottom: "20px", paddingLeft: "10px"}}><a href="https://jobs.lever.co/vannevarlabs-2"><u>Explore careers at Vannevar Labs</u></a></div>
         </GridItem>
         <GridItem xs={12} sm={6} md={6} lg={6} xl={6} className={classes.itemGrid}>
           <GridContainer id="photos" style={{justifyContent: "space-between"}}>

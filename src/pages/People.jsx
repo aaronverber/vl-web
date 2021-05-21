@@ -27,6 +27,8 @@ import harrison from "assets/img/faces/harrison.png";
 import ian from "assets/img/faces/ian.png";
 import john from 'assets/img/faces/john.png';
 
+import culture from "assets/img/culture.png";
+
 
 const dashboardRoutes = [];
 
@@ -58,7 +60,7 @@ class People extends React.Component {
                   color="info"
                   id="top-button"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://jobs.lever.co/vannevarlabs-2"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -197,6 +199,28 @@ class People extends React.Component {
                 <h3>CTO and Co-founder at Opendoor</h3>
 
                 <p>Ian Wong is CTO and co-founder of Opendoor and advises Vannevar on Engineering and Product. Previously, he built machine learning applications at Square and Prismatic. He earned degrees in Electrical Engineering and Statistics from Stanford University. </p>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+
+        <div id="bio-holder">
+        <div className={classes.container}>
+            <GridContainer style = {{justifyContent: "center"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{marginBottom: "50px", textAlign: "center", lineHeight: "40px"}}>
+            <img src={culture} alt="..." />
+                <h2>Join our team!</h2>
+                <p>A short message goes here to say hey, look at our open positions before you go.</p>
+                <Button
+                  color="info"
+                  id="top-button"
+                  size="lg"
+                  href="https://jobs.lever.co/vannevarlabs-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join our team
+                </Button>
               </GridItem>
             </GridContainer>
           </div>

@@ -368,6 +368,22 @@ form {
   object-position: top center;
 }
 
+#contact{
+  background: url("../../assets/img/nature.png"), rgba(0,0,0,0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 800px;
+  background-blend-mode: multiply;
+}
+
+#contact p{
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 @media screen and (min-width: 400px) and (max-width: 960px) {
   h1 {
     font-size: 38px;
