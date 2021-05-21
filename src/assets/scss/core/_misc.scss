@@ -384,6 +384,20 @@ form {
   padding-bottom: 15px;
 }
 
+#contact form {
+  padding-top: 25px;
+}
+
+#name, #email, #message  {
+  color: white;
+}
+
+#contact button{
+  margin-top: 20px;
+  background-color: #68C4FF;
+  color: #000;
+}
+
 @media screen and (min-width: 400px) and (max-width: 960px) {
   h1 {
     font-size: 38px;

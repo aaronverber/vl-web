@@ -11,7 +11,6 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/brett.png";
 import brett from "assets/img/faces/brett.png";
 import nini from "assets/img/faces/nini.png";
 import danny from "assets/img/faces/danny.png";

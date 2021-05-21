@@ -15,7 +15,6 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
 
-import vSymbol from "assets/img/logosvg.svg";
 
 class Header extends React.Component {
   constructor(props) {

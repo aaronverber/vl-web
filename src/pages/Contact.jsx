@@ -32,12 +32,12 @@ class Contact extends React.Component {
         />
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={8} md={6} lg={6} xl={6} style = {{marginBottom: "50px"}}>
+              <GridItem xs={12} sm={8} md={6} lg={6} xl={6} style = {{marginBottom: "0px"}}>
                 <h1 className={classes.title}>How can we help?</h1>
                 <p>We’re here to answer your questions about Vannevar Labs. Want to know more about our solutions? How you can integrate with our systems? How to get started? Let us know.</p>
               </GridItem>
             <GridItem  xs={12} sm={8} md={6} lg={6} xl={6}>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
               <GridContainer>
                 <GridItem xs={12} sm={12} md={12} style = {{backgroundColor: "rgba(0,0,0,0.5)"}}>
                   <CustomInput
@@ -77,9 +77,8 @@ class Contact extends React.Component {
                     sm={12}
                     md={4}
                     className={classes.textCenter}
-
                   >
-                    <Button color="primary">Send Message</Button>
+                    <Button color="primary">Submit</Button>
                   </GridItem>
               </GridContainer>
             </form>
