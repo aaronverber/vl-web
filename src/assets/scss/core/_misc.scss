@@ -338,10 +338,10 @@ form {
 }
 
 #top{
-  background: linear-gradient(180deg, #F2EFE4 8.06%, rgba(242, 239, 228, 0) 24.69%, rgba(255, 255, 255, 0) 24.69%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   min-height: 800px;
   background-blend-mode: normal;
 }
@@ -494,6 +494,49 @@ form {
   header button{
     margin: 0px;
   }
+
+  }
+
+@media screen and (min-width: 960px) and (max-width: 1200px){
+  #top {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 800px;
+    background-blend-mode: normal;
+  }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 960px){
+  #top{
+    background: linear-gradient(180deg, #FAFDFE 50%, rgba(250, 253, 254, 0) 60%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom center;
+    background-blend-mode: normal;
+}
+}
+
+@media screen and (min-width: 401px) and (max-width: 699px){
+  #top{
+    background: linear-gradient(180deg, #FAFDFE 65%, rgba(250, 253, 254, 0) 80%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom center;
+    background-blend-mode: normal;
+}
+}
+
+@media screen and (min-width: 1441px) {
+  #top{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode: normal;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -524,13 +567,7 @@ form {
     align-items: center;
   }
 
-  #top{
-    background: linear-gradient(180deg, #F7F4E9 9.88%, rgba(247, 244, 233, 0) 22.38%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #F2EFE4;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: bottom center;
-    background-blend-mode: normal;
-  }
+
 
 
   header button{
@@ -583,6 +620,14 @@ div[role=document] a[role=button]{
 
   #top h4{
     font-size: 18px;
+  }
+
+  #top{
+    background: linear-gradient(180deg, #FAFDFE 600px, rgba(250, 253, 254, 0) 700px), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom center;
+    background-blend-mode: normal;
   }
 
 }
