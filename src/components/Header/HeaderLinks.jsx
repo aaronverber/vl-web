@@ -29,6 +29,7 @@ function HeaderLinks({ ...props }) {
         <Button
           color="transparent"
           className={classes.navLink}
+          href="/people"
         >
           <People className={classes.icons} /><Link to="/people">People</Link>
         </Button>
@@ -47,6 +48,7 @@ function HeaderLinks({ ...props }) {
         <Button
           color="transparent"
           className={classes.navLink}
+          href="/contact"
         >
           <EmailIcon className={classes.icons} /> <Link to="/contact">Contact</Link>
         </Button>

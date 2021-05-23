@@ -123,8 +123,48 @@ header button {
   margin: 20px 0!important;
 }
 
+#top header button:hover a{
+  color: #aaa;
+}
+
+#top svg[role=presentation]{
+  fill: #002642;
+}
+
 #logo a:hover svg path {
   fill: #9BF4B2;
+}
+
+#top h1{
+  color: black;
+  line-height: 110%;
+  margin-top: 0px;
+}
+
+#top h4{
+  color: black;
+  font-size: 18px;
+
+}
+
+#top header a {
+  color: #002642;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: #aaa;
+    text-decoration: none;
+  }
+}
+
+
+#top #logo svg path {
+  fill: #002642;
+} 
+
+#top #logo a:hover svg path {
+  fill: #aaa;
 }
 
 footer a {
@@ -162,7 +202,6 @@ form {
     overflow:hidden;
     min-width: 100%;
     width: auto;
-    box-shadow: black 0px -2px 40px;
     text-align: left;
 }
 
@@ -299,12 +338,17 @@ form {
 }
 
 #top{
-  background: url("../../assets/img/farm_small.png"), rgba(0,0,0,0.2);
+  background: linear-gradient(180deg, #F2EFE4 8.06%, rgba(242, 239, 228, 0) 24.69%, rgba(255, 255, 255, 0) 24.69%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom right;
+  background-position: center center;
   min-height: 800px;
-  background-blend-mode: multiply;
+  background-blend-mode: normal;
+}
+
+#top-details{
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 #vannevar{
@@ -480,6 +524,14 @@ form {
     align-items: center;
   }
 
+  #top{
+    background: linear-gradient(180deg, #F7F4E9 9.88%, rgba(247, 244, 233, 0) 22.38%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #F2EFE4;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom center;
+    background-blend-mode: normal;
+  }
+
 
   header button{
     margin: 0px;
@@ -527,6 +579,10 @@ div[role=document] a[role=button]{
 
   #news h4{
     font-size: 12px;
+  }
+
+  #top h4{
+    font-size: 18px;
   }
 
 }
