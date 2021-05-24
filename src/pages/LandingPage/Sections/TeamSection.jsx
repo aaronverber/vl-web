@@ -11,13 +11,13 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import brett from "assets/img/faces/brett.png";
-import nini from "assets/img/faces/nini.png";
-import danny from "assets/img/faces/danny.png";
-import nathan from "assets/img/faces/nathan.png";
+import brett from "assets/img/faces/brett.jpg";
+import nini from "assets/img/faces/nini.jpg";
+import danny from "assets/img/faces/danny.jpg";
+import nathan from "assets/img/faces/nathan.jpg";
 
-import nate from "assets/img/faces/nate.png";
-import alex from "assets/img/faces/alex.png";
+import nate from "assets/img/faces/nate.jpg";
+import alex from "assets/img/faces/alex.jpg";
 
 import { Link } from "gatsby";
 

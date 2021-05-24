@@ -9,23 +9,23 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
-import brett from "assets/img/faces/brett.png";
-import nini from "assets/img/faces/nini.png";
-import danny from "assets/img/faces/danny.png";
-import nathan from "assets/img/faces/nathan.png";
+import brett from "assets/img/faces/brett.jpg";
+import nini from "assets/img/faces/nini.jpg";
+import danny from "assets/img/faces/danny.jpg";
+import nathan from "assets/img/faces/nathan.jpg";
 
-import nate from "assets/img/faces/nate.png";
-import alex from "assets/img/faces/alex.png";
-import nick from "assets/img/faces/nick.png";
-import eric from "assets/img/faces/eric.png";
+import nate from "assets/img/faces/nate.jpg";
+import alex from "assets/img/faces/alex.jpg";
+import nick from "assets/img/faces/nick.jpg";
+import eric from "assets/img/faces/eric.jpg";
 
-import erin from "assets/img/faces/erin.png";
-import scott from "assets/img/faces/scott.png";
-import ngoc from "assets/img/faces/ngoc.png";
-import harrison from "assets/img/faces/harrison.png";
+import erin from "assets/img/faces/erin.jpg";
+import scott from "assets/img/faces/scott.jpg";
+import ngoc from "assets/img/faces/ngoc.jpg";
+import harrison from "assets/img/faces/harrison.jpg";
 
-import ian from "assets/img/faces/ian.png";
-import john from 'assets/img/faces/john.png';
+import ian from "assets/img/faces/ian.jpg";
+import john from 'assets/img/faces/john.jpg';
 
 import culture from "assets/img/culture.png";
 
