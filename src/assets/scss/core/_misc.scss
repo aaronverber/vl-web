@@ -150,7 +150,8 @@ header button {
 #top h4{
   color: white;
   font-size: 18px;
-  text-shadow: 0 3px 4px rgba(0,0,0,.4);
+  text-shadow: 0 2px 3px rgba(0,0,0,.2);
+  font-weight: 400;
 }
 
 
@@ -256,6 +257,7 @@ form {
   color: #000;
   font-size: 18px;
   text-align: left;
+  line-height: 150%;
 }
 
 #peopleall {
@@ -353,8 +355,7 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
-  min-height: 600px;
-  max-height: 800px;
+  min-height: 500px;
   background-blend-mode: multiply;
 }
 
@@ -426,7 +427,7 @@ form {
 .bio img{
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 18px;
   object-fit: cover;
   object-position: top center;
 }
@@ -478,7 +479,7 @@ form {
 
   #decrypt h2{
     margin: 0px;
-  }
+  } 
 
   #vannevar{
     background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.6);
@@ -519,7 +520,7 @@ form {
 
 @media screen and (min-width: 401px) and (max-width: 699px){
   #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: linear-gradient(0deg, rgba(0, 38, 66, .5), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom center;
@@ -535,7 +536,7 @@ form {
     background-size:cover;
     background-position: center center;
     background-blend-mode: normal;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 }
 

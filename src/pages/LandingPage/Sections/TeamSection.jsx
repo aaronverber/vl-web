@@ -15,7 +15,6 @@ import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
 import danny from "assets/img/faces/danny.jpg";
 import nathan from "assets/img/faces/nathan.jpg";
-
 import nate from "assets/img/faces/nate.jpg";
 import alex from "assets/img/faces/alex.jpg";
 
@@ -35,7 +34,7 @@ class TeamSection extends React.Component {
           <GridContainer id="peopleall">
           <GridItem  xs={12} sm={6} md={6} lg={6} xl={6}>
           <h1 className={classes.title} style={{textAlign: "left"}}>A team of experts.</h1>
-          <p><b>VANNEVAR LABS</b> brings together a multi-disciplinary task force with a wide range of experiences, over X years of military service, engineers from some of the top tech startups, and a passion for delivering mission critical tools that protect our country from worldwide threats.</p>
+          <p>Our team of experts have backgrounds from across the Intelligence Community, Department of Defense, and Silicon Valley, with decades of success solving our country’s biggest challenges.</p>
           <Button
                   color="info"
                   size="md"

@@ -160,7 +160,7 @@ const title = {
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
-  fontFamily: `"Sarabun", "Times New Roman", serif`
+  fontFamily: `"Saira Semi Condensed", "Times New Roman", serif`
 };
 
 const decrypt = {
