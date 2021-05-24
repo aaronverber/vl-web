@@ -5,6 +5,9 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;700&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet"></link>
           <title>Vannevar Labs</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />

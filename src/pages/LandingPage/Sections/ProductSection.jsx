@@ -5,7 +5,7 @@ import productStyle from "assets/jss/material-kit-react/views/landingPageSection
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 
-import lineart from "assets/img/lineart.svg"
+import lineart from "assets/img/lineart.png"
 
 import {Link} from "gatsby";
 
