@@ -58,7 +58,7 @@ class Header extends React.Component {
         <Toolbar className={classes.container}>
           <div id="logo">
             <Link to= "/">
-              <svg viewBox = "0 0 129 173" alt=" " style={{width: "35px", height: "auto", display: "inline", verticalAlign: "middle", marginTop: "-8px"}}>
+              <svg viewBox = "0 0 129 173" alt=" " style={{width: "30px", height: "auto", display: "inline", verticalAlign: "middle", marginTop: "-8px"}}>
                 <path d="M39 103.5L0 0H77.5L39 103.5Z M64.5 172.5L44.5 118.5L65.2212 62.5H105.5L64.5 172.5Z M69 52.5H109L129 0H88.5L69 52.5Z" fill="white"/>
               </svg>
               <h3 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700", display: "inline", paddingLeft: "15px"}}>VANNEVAR <span style={{fontWeight:"400"}}>Labs</span></h3>

@@ -207,7 +207,7 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
             <GridContainer style = {{justifyContent: "center"}}>
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{marginBottom: "50px", textAlign: "center", lineHeight: "40px"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{textAlign: "center", lineHeight: "40px"}}>
             <img src={culture} alt="..." />
                 <h2>Join our team!</h2>
                 <p>A short message goes here to say hey, look at our open positions before you go.</p>

@@ -4,7 +4,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";

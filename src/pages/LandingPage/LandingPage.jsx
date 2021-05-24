@@ -48,9 +48,9 @@ class LandingPage extends React.Component {
         />
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={8} lg={8} xl={9}>
+              <GridItem xs={12} sm={9} md={8} lg={8} xl={8}>
                 <h1 className={classes.title}>Cutting-edge artificial intelligence for critical national security problems.</h1>
-                <GridItem xs={12} sm={12} md = {12} lg = {11} xl={11} id="top-details">
+                <GridItem xs={12} sm={11} md = {11} lg = {11} xl={11} id="top-details">
                 <h4>
                   <b>VANNEVAR LABS</b> builds artificial intelligence (AI) and natural language processing (NLP) tools to power a safer America. Our mission brings together experts from Washington to Silicon Valley with decades of success solving our country’s biggest challenges.
                 </h4>

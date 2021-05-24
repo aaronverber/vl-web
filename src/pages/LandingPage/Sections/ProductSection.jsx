@@ -17,7 +17,7 @@ class ProductSection extends React.Component {
         <GridContainer style = {{width: "100%", display: "flex", padding: "0 20px", justifyContent: "center", alignItems: "center", flexWrap: "wrap-reverse", maxWidth: "1140px"}}>
           <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
             <div id="decryptLeft">
-              <img src={lineart} alt="..." />
+              <img src={lineart} alt="Vannevar Decrypt" />
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={4} lg={6} xl={6}>

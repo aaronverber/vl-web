@@ -85,6 +85,10 @@ legend {
   border-bottom: 0;
 }
 
+header{
+  margin-top: 0px;
+}
+
 // Prevent highlight on mobile
 * {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -123,48 +127,41 @@ header button {
   margin: 20px 0!important;
 }
 
-#top header button:hover a{
-  color: #aaa;
-}
 
 #top svg[role=presentation]{
-  fill: #002642;
+  fill: #fff;
 }
 
 #logo a:hover svg path {
   fill: #9BF4B2;
 }
 
+#logo svg{
+  margin-left: 5px!important;
+}
+
 #top h1{
-  color: black;
+  color:#fff;
   line-height: 110%;
   margin-top: 0px;
+  text-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
 
 #top h4{
-  color: black;
+  color: white;
   font-size: 18px;
-
+  text-shadow: 0 3px 4px rgba(0,0,0,.4);
 }
 
-#top header a {
-  color: #002642;
-  text-decoration: none;
-  background-color: transparent;
-  &:hover,
-  &:focus {
-    color: #aaa;
-    text-decoration: none;
-  }
-}
+
 
 
 #top #logo svg path {
-  fill: #002642;
+  fill: #fff;
 } 
 
 #top #logo a:hover svg path {
-  fill: #aaa;
+  fill: #9BF4B2;
 }
 
 footer a {
@@ -338,12 +335,12 @@ form {
 }
 
 #top{
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
+  background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  min-height: 800px;
   background-blend-mode: normal;
+  min-height: 100vh;
 }
 
 #top-details{
@@ -499,43 +496,46 @@ form {
 
 @media screen and (min-width: 960px) and (max-width: 1200px){
   #top {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg");
+    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    min-height: 800px;
     background-blend-mode: normal;
+    min-height: 80vh;
   }
 }
 
 
 @media screen and (min-width: 700px) and (max-width: 960px){
   #top{
-    background: linear-gradient(180deg, #FAFDFE 50%, rgba(250, 253, 254, 0) 60%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: bottom center;
     background-blend-mode: normal;
+    min-height: 80vh;
 }
 }
 
 @media screen and (min-width: 401px) and (max-width: 699px){
   #top{
-    background: linear-gradient(180deg, #FAFDFE 65%, rgba(250, 253, 254, 0) 80%), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: bottom center;
     background-blend-mode: normal;
+    min-height: 80vh;
 }
 }
 
 @media screen and (min-width: 1441px) {
   #top{
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
     background-blend-mode: normal;
+    min-height: 80vh;
 }
 }
 
@@ -590,7 +590,7 @@ div[role=document] a[role=button]{
 
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   h2{
@@ -619,15 +619,17 @@ div[role=document] a[role=button]{
   }
 
   #top h4{
-    font-size: 18px;
+    font-size: 16px;
+    padding-bottom: 20px;
   }
 
   #top{
-    background: linear-gradient(180deg, #FAFDFE 600px, rgba(250, 253, 254, 0) 700px), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: linear-gradient(0deg, rgba(0, 38, 66, 0.7), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position: bottom center;
+    background-size:cover;
+    background-position: center center;
     background-blend-mode: normal;
+    min-height: 560px;
   }
 
 }
@@ -641,6 +643,7 @@ a[role=button] {
 #top-button {
   background-color: #68C4FF;
   color: #000!important;
+  margin-bottom: 100px;
 }
 
 #top-button a{
@@ -743,6 +746,6 @@ header button a:hover{
 }
 
 #contact-button:hover{
-  box-shadow: 2px 2px 10px #68C4FF;
+  box-shadow: 0 2px 10px #68C4FF;
   cursor: pointer;
 }
