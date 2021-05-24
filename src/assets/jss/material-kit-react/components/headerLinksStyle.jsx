@@ -1,7 +1,5 @@
 import { defaultFont } from "assets/jss/material-kit-react.jsx";
 
-import tooltip from "assets/jss/material-kit-react/tooltipsStyle.jsx";
-
 const headerLinksStyle = theme => ({
   list: {
     ...defaultFont,
@@ -104,10 +102,6 @@ const headerLinksStyle = theme => ({
       display: "block",
       padding: "10px 20px"
     }
-  },
-  ...tooltip,
-  marginRight5: {
-    marginRight: "5px"
   }
 });
 
