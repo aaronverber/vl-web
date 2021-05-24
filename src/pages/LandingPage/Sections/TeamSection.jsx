@@ -49,22 +49,22 @@ class TeamSection extends React.Component {
         <GridItem xs={12} sm={6} md={6} lg={6} xl={6} className={classes.itemGrid}>
           <GridContainer id="photos" style={{justifyContent: "space-between"}}>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={brett} alt="..." className={imageClasses} />
+              <img defer src={brett} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={nini} alt="..." className={imageClasses} />
+              <img defer src={nini} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={danny} alt="..." className={imageClasses} />
+              <img defer src={danny} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={nathan} alt="..." className={imageClasses} />
+              <img defer src={nathan} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={nate} alt="..." className={imageClasses} />
+              <img defer src={nate} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img src={alex} alt="..." className={imageClasses} />
+              <img defer src={alex} alt="..." className={imageClasses} />
             </GridItem>
           </GridContainer>
         </GridItem>

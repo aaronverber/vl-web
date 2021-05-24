@@ -69,7 +69,7 @@ class LandingPage extends React.Component {
           </div>
         </div>
         <div id="decrypt" className={classNames(classes.main)}>
-          <video id="grid-video" autoPlay muted loop>
+          <video id="grid-video" autoPlay muted loop playsInline>
             <source src={gridVideo} type="video/mp4" />
           </video>
           <div style = {{color: "white"}}>   
