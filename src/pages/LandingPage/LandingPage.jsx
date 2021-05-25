@@ -49,10 +49,10 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={9} md={8} lg={8} xl={8}>
-                <h1 className={classes.title}>Cutting-edge artificial intelligence for critical national security problems.</h1>
+                <h1 className={classes.title}>Silicon Valley technology for critical national security problems.</h1>
                 <GridItem xs={12} sm={11} md = {11} lg = {11} xl={11} id="top-details">
                 <h4>
-                  <b>VANNEVAR LABS</b> builds artificial intelligence (AI) and natural language processing (NLP) tools combining top software engineering talent with decades of mission experience to advance the state of the art in national defense.
+                  <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to advance the state of the art in national defense and support public servants working on the country’s most important problems.
                 </h4>
                 <Button
                   color="info"
