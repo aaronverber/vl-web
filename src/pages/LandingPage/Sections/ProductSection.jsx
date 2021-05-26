@@ -28,7 +28,7 @@ class ProductSection extends React.Component {
           <div className="product-item">
          <h1 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h1>
             <h2>
-              A foreign text data workflow platform built for public servants.
+              A foreign text workflow platform built for national security.
             </h2>
             <br/>
             <Button

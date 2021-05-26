@@ -195,7 +195,7 @@ class People extends React.Component {
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ian} alt="..." />
-                <h2>Alex Williams</h2>
+                <h2>Ian Wong</h2>
                 <h3>CTO and Co-founder at Opendoor</h3>
 
                 <p>Ian Wong is CTO and co-founder of Opendoor and advises Vannevar on Engineering and Product. Previously, he built machine learning applications at Square and Prismatic. He earned degrees in Electrical Engineering and Statistics from Stanford University. </p>
