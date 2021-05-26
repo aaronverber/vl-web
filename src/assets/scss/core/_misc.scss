@@ -429,7 +429,7 @@ form {
 .bio img{
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 18px;
+  border-radius: 20px;
   object-fit: cover;
   object-position: top center;
 }
@@ -439,16 +439,17 @@ form {
 }
 
 #contact{
-  background: url("../../assets/img/nature.jpg"), rgba(0,0,0,0.3);
+  background: url("../../assets/img/nature.jpg"), rgba(0,0,0,0.5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  min-height: 800px;
+  min-height: 90vh;
   background-blend-mode: multiply;
 }
 
 #contact p{
   font-size: 18px;
+  font-weight: 400;
   line-height: 32px;
   padding-top: 15px;
   padding-bottom: 15px;

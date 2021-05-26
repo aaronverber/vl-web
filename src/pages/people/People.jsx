@@ -54,7 +54,7 @@ class People extends React.Component {
               <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
                 <h1 className={classes.title}>Our team lives the mission every day.</h1>
                 <p>
-                  <b>VANNEVAR LABS</b> brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the top tech companies and startups, and a passion for delivering mission critical tools to support public servants on the frontlines of the country's most important national security problems.
+                  <b>VANNEVAR LABS</b> brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the top tech companies and startups, and a passion for delivering mission critical tools to support public servants on the front lines of the country's most important national security problems.
                 </p>
                 <Button
                   color="info"
