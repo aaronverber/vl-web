@@ -52,7 +52,7 @@ class LandingPage extends React.Component {
                 <h1 className={classes.title}>Silicon Valley technology for critical national security problems.</h1>
                 <GridItem xs={12} sm={11} md = {11} lg = {11} xl={11} id="top-details">
                 <h4>
-                  <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to advance the state of the art in national defense and support public servants working on the country’s most important problems.
+                  <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to advance the state of the art in national defense technology and support public servants working on the country’s most important problems.
                 </h4>
                 <Button
                   color="info"

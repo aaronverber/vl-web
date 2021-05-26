@@ -50,7 +50,7 @@ class People extends React.Component {
           {...rest}
         />
           <div className={classes.container}>
-            <GridContainer>
+            <GridContainer style = {{justifyContent: "center", textAlign: "center"}}>
               <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
                 <h1 className={classes.title}>Our team lives the mission every day.</h1>
                 <p>
@@ -92,18 +92,20 @@ class People extends React.Component {
                 <p>She is a former US intelligence officer who spent seven years working with counterterrorism mission groups, including embedded with the US military overseas. Nini also served as chief of staff to the Director of the National Counterterrorism Center.</p>
                 <p>Nini holds a BA from Harvard College, where she studied Middle Eastern History and Arabic, and an MBA from the Stanford Graduate School of Business.</p>
               </GridItem>
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={danny} alt="..." />
-                <h2>Danny Goodman</h2>
-                <h3>Co-founder</h3>
-                <p>Danny Goodman co-founded Switchback Ventures, which built custom enterprise Deep Learning and Data Science products. Earlier, Danny was VP of Platform at MetaMind, which enabled thousands of customers to train and deploy state-of-the-art text and image classifiers. Before that, he was Director of Data Science at MetroMile, the only per-mile car insurer in the US.</p>
-              </GridItem>
+
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nathan} alt="..." />
                 <h2>Nathan Hartman</h2>
                 <h3>Engineering Manager</h3>
 
                 <p>Nathan Hartman has more than a decade of experience as a software developer, where he’s worked on everything from frontend to embedded systems at several companies, including a company he co-founded as CTO.</p>
+              </GridItem>
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+            <img defer src={nate} alt="..." />
+                <h2>Nate Bush</h2>
+                <h3>Engineering Manager</h3>
+
+                <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s over 1-billion device users.</p>
               </GridItem>
             </GridContainer>
           </div>
@@ -113,13 +115,7 @@ class People extends React.Component {
         <div id="bio-holder-next">
         <div className={classes.container}>
             <GridContainer>
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-            <img defer src={nate} alt="..." />
-                <h2>Nate Bush</h2>
-                <h3>Engineering Manager</h3>
 
-                <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s over 1-billion device users.</p>
-              </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={alex} alt="..." />
                 <h2>Alex Williams</h2>
@@ -141,6 +137,13 @@ class People extends React.Component {
 
                 <p>Eric Gibbs is a former Cryptologic Warfare Officer in the Navy with experience in both Intelligence and Operations roles. He provided signals intelligence analysis support to global military and intelligence community operations and deployed to the Middle East to conduct Information and Space Operations. He holds a BS from the U.S. Naval Academy where he studied Quantitative Economics.</p>
               </GridItem>
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+            <img defer src={erin} alt="..." />
+                <h2>Erin Biggers</h2>
+                <h3>Director of Mission Success</h3>
+
+                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Master in Public Policy from the University of Maryland.</p>
+              </GridItem>
             </GridContainer>
           </div>
         </div>
@@ -149,13 +152,7 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
             <GridContainer>
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-            <img defer src={erin} alt="..." />
-                <h2>Erin Biggers</h2>
-                <h3>Director of Mission Success</h3>
 
-                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Master in Public Policy from the University of Maryland.</p>
-              </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={scott} alt="..." />
                 <h2>Scott McCreary</h2>
@@ -186,6 +183,12 @@ class People extends React.Component {
         <div className={classes.container}>
         <h1>Our advisors</h1>
             <GridContainer>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={danny} alt="..." />
+                <h2>Danny Goodman</h2>
+                <h3>Co-founder at Vannevar Labs</h3>
+                <p>Danny Goodman co-founded Switchback Ventures, which built custom enterprise Deep Learning and Data Science products. Earlier, Danny was VP of Platform at MetaMind, which enabled thousands of customers to train and deploy state-of-the-art text and image classifiers. Before that, he was Director of Data Science at MetroMile, the only per-mile car insurer in the US.</p>
+              </GridItem>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
             <img defer src={john} alt="..." />
                 <h2>John Doyle</h2>

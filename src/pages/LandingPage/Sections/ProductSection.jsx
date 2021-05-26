@@ -30,16 +30,6 @@ class ProductSection extends React.Component {
             <h2>
               A foreign text workflow platform built for national security.
             </h2>
-            <br/>
-            <Button
-                  color="info"
-                  size="md"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Link to="/contact">Contact us</Link>
-                </Button>
           </div>
         </div>
             </div>

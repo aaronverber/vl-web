@@ -4,6 +4,7 @@ html * {
 }
 body {
   font-size: 1rem;
+  background-color: #111111!important;
 }
 body,
 h1,
@@ -356,12 +357,10 @@ form {
 }
 
 #vannevar{
-  background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,.5);
+  background: url("../../assets/img/triangles.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top right;
-  min-height: 500px;
-  background-blend-mode: multiply;
+  background-position: center;
 }
 
 #vannevar p{
@@ -443,10 +442,10 @@ form {
 }
 
 #contact{
-  background: url("../../assets/img/nature.jpg"), rgba(0,0,0,0.5);
+  background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.5);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: top right;
   min-height: 90vh;
   background-blend-mode: multiply;
 }
@@ -492,14 +491,6 @@ form {
     margin: 0px;
   } 
 
-  #vannevar{
-    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.6);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top right -150px;
-    background-blend-mode: multiply;
-  }
-
   header button{
     margin: 0px;
   }
@@ -515,6 +506,14 @@ form {
     background-blend-mode: normal;
     min-height: 80vh;
   }
+  #contact{
+    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    min-height: 90vh;
+    background-blend-mode: multiply;
+  }
 }
 
 
@@ -527,6 +526,14 @@ form {
     background-blend-mode: normal;
     min-height: 80vh;
 }
+  #contact{
+    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right -100px;
+    min-height: 90vh;
+    background-blend-mode: multiply;
+  }
 }
 
 @media screen and (min-width: 401px) and (max-width: 699px){
@@ -565,13 +572,14 @@ form {
     margin-left: 0px;
   }
 
-  #vannevar{
-    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.8);
+
+  #contact{
+    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right -200px;
+    min-height: 90vh;
     background-blend-mode: multiply;
-    min-height: 500px;
   }
 }
 
