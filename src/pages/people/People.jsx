@@ -52,9 +52,9 @@ class People extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
-                <h1 className={classes.title}>Our team won't stop until mission accomplished.</h1>
+                <h1 className={classes.title}>Our team lives the mission every day.</h1>
                 <p>
-                  <b>VANNEVAR LABS</b> brings together a multi-disciplinary task force with a wide range of experiences, over X years of military service, engineers from some of the top tech startups, and a passion for delivering mission critical tools that protect our country from worldwide threats. [A line here, something about the type of folks we’re looking for or just something about overall apply to our company, etc....]
+                  <b>VANNEVAR LABS</b> brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the top tech companies and startups, and a passion for delivering mission critical tools to support public servants on the frontlines of the country's most important national security problems.
                 </p>
                 <Button
                   color="info"
@@ -207,10 +207,10 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
             <GridContainer style = {{justifyContent: "center"}}>
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{textAlign: "center", lineHeight: "40px"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{textAlign: "center"}}>
             <img defer src={culture} alt="..." />
                 <h2>Join our team!</h2>
-                <p>A short message goes here to say hey, look at our open positions before you go.</p>
+                <p>We're building tools to support public servants working on the country’s most important problems.</p>
                 <Button
                   color="info"
                   id="top-button"
@@ -219,7 +219,7 @@ class People extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Join our team
+                  Learn more
                 </Button>
               </GridItem>
             </GridContainer>

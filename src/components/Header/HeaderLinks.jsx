@@ -31,7 +31,7 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
           href="/people"
         >
-          <People className={classes.icons} /><Link to="/people">People</Link>
+          <Link to="/people">People</Link>
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -41,7 +41,7 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           className={classes.navLink}
         >
-          <Work className={classes.icons} /> Careers
+          Careers
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -50,7 +50,7 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
           href="/contact"
         >
-          <EmailIcon className={classes.icons} /> <Link to="/contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </Button>
       </ListItem>
       

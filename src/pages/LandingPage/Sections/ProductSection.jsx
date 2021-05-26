@@ -6,6 +6,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 
 import lineart from "assets/img/lineart.png"
+import laser from "assets/img/laser.png"
 
 import {Link} from "gatsby";
 
@@ -18,15 +19,16 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8} lg={6} xl={6}>
             <div id="decryptLeft">
               <img defer src={lineart} alt="Vannevar Decrypt" />
+              
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={4} lg={6} xl={6}>
             <div id="decryptRight">
             <div className="product" justify="center">
           <div className="product-item">
-            <h1 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h1>
+         <h1 style={{fontFamily:"Saira Semi Condensed", fontWeight: "700"}}>VANNEVAR <span style={{fontWeight:"400"}}>Decrypt</span></h1>
             <h2>
-              A persistent, taskable sensor for foreign text data.
+              A foreign text data workflow platform built for public servants.
             </h2>
             <br/>
             <Button
