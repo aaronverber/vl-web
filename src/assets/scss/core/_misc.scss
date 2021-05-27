@@ -120,8 +120,13 @@ header a {
   &:focus {
     color: #68C4FF;
     text-decoration: none;
+    svg > path{
+      fill: #68C4FF !important;
+    }
   }
+
 }
+
 
 header button {
   text-transform: none !important;
@@ -138,13 +143,7 @@ header li{
   fill: #fff;
 }
 
-#logo a:hover svg path {
-  fill: #68C4FF;
-}
 
-#logo svg{
-  margin-left: 5px!important;
-}
 
 #top h1{
   color:#fff;
@@ -162,14 +161,16 @@ header li{
 
 
 
+#logo svg{
+  margin-left: 5px!important;
+}
 
 #top #logo svg path {
   fill: #fff;
 } 
 
-#top #logo svg:hover path {
-  fill: #68C4FF;
-}
+
+
 
 footer a {
   color: #002642;
