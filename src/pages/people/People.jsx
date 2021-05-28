@@ -89,7 +89,7 @@ class People extends React.Component {
                 <h2>Nini Moorhead</h2>
                 <h3>COO</h3>
 
-                <p>She is a former US intelligence officer who spent seven years working with counterterrorism mission groups, including embedded with the US military overseas. Nini also served as chief of staff to the Director of the National Counterterrorism Center.</p>
+                <p>Nini Moorhead is a former US intelligence officer who spent seven years working with counterterrorism mission groups, including embedded with the US military overseas. Nini also served as chief of staff to the Director of the National Counterterrorism Center.</p>
                 <p>Nini holds a BA from Harvard College, where she studied Middle Eastern History and Arabic, and an MBA from the Stanford Graduate School of Business.</p>
               </GridItem>
 
