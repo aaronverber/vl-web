@@ -13,7 +13,7 @@ import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/t
 
 import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
-import danny from "assets/img/faces/danny.jpg";
+import erin from "assets/img/faces/erin.jpg";
 import nathan from "assets/img/faces/nathan.jpg";
 import nate from "assets/img/faces/nate.jpg";
 import alex from "assets/img/faces/alex.jpg";
@@ -54,9 +54,6 @@ class TeamSection extends React.Component {
               <img defer src={nini} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img defer src={danny} alt="..." className={imageClasses} />
-            </GridItem>
-            <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
               <img defer src={nathan} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
@@ -64,6 +61,9 @@ class TeamSection extends React.Component {
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
               <img defer src={alex} alt="..." className={imageClasses} />
+            </GridItem>
+            <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
+              <img defer src={erin} alt="..." className={imageClasses} />
             </GridItem>
           </GridContainer>
         </GridItem>
