@@ -443,12 +443,11 @@ form {
 }
 
 #contact{
-  background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.5);
+  background: url("../../assets/img/vannevar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
   min-height: 90vh;
-  background-blend-mode: multiply;
 }
 
 #contact p{
@@ -508,12 +507,11 @@ form {
     min-height: 80vh;
   }
   #contact{
-    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
+    background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
+    background-position: top center;
     min-height: 90vh;
-    background-blend-mode: multiply;
   }
 }
 
@@ -528,10 +526,10 @@ form {
     min-height: 80vh;
 }
   #contact{
-    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
+    background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right -100px;
+    background-position: top right -500px;
     min-height: 90vh;
     background-blend-mode: multiply;
   }
@@ -575,10 +573,10 @@ form {
 
 
   #contact{
-    background: url("../../assets/img/vannevar.jpg"), rgba(0,0,0,0.7);
+    background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right -200px;
+    background-position: top right -800px;
     min-height: 90vh;
     background-blend-mode: multiply;
   }
