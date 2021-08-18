@@ -3,8 +3,10 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
+  margin: auto;
   font-size: 1rem;
   background-color: #111111!important;
+  max-width: 1440px;
 }
 body,
 h1,
@@ -77,7 +79,6 @@ html {
 body {
   background-color: #e5e5e5;
   color: #000;
-  margin: 0;
   font-size: 1rem;
   text-align: left;
 }
@@ -135,7 +136,7 @@ header button {
 }
 
 header li{
-  padding-right: 50px!important;
+  padding-left: 50px!important;
 }
 
 
@@ -143,21 +144,38 @@ header li{
   fill: #fff;
 }
 
+#shed{
+  max-width: inherit;
+}
 
+#colorlogo-mid{
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  width: 250px;
+
+}
 
 #top h1{
   color:#fff;
   line-height: 110%;
-  margin-top: 0px;
-  text-shadow: 0 2px 4px rgba(0,0,0,.3);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 200;
+  font-size: 36px;
 }
 
 #top h4{
   color: white;
   font-size: 18px;
-  text-shadow: 0 2px 3px rgba(0,0,0,.2);
+  margin-top: 40px;
   font-weight: 400;
 }
+
 
 
 
@@ -208,6 +226,8 @@ form {
     min-width: 100%;
     width: auto;
     text-align: left;
+    position: relative;
+    z-index: -1000;
 }
 
 #decrypt h1, #decrypt h2, #decrypt h3, #decrypt h4 {
@@ -344,17 +364,22 @@ form {
 }
 
 #top{
-  background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-blend-mode: normal;
-  min-height: 100vh;
+  background: #222;
+
 }
 
 #top-details{
   margin-left: 0px;
   padding-left: 0px;
+  text-align: right;
+}
+
+#colorLogo svg path {
+  border-image-source: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
+  stroke-width: 2;
+  stroke: white;
+  stroke-linejoin: miter;
+  border: 2px solid;
 }
 
 #vannevar{
@@ -447,7 +472,6 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
-  min-height: 90vh;
 }
 
 #contact p{
@@ -499,12 +523,12 @@ form {
 
 @media screen and (min-width: 960px) and (max-width: 1200px){
   #top {
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: #222;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     background-blend-mode: normal;
-    min-height: 80vh;
+
   }
   #contact{
     background: url("../../assets/img/vannevar.jpg");
@@ -518,12 +542,12 @@ form {
 
 @media screen and (min-width: 700px) and (max-width: 960px){
   #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: #222;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom center;
     background-blend-mode: normal;
-    min-height: 80vh;
+
 }
   #contact{
     background: url("../../assets/img/vannevar.jpg");
@@ -537,23 +561,23 @@ form {
 
 @media screen and (min-width: 401px) and (max-width: 699px){
   #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .5), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: #222;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom center;
     background-blend-mode: normal;
-    min-height: 80vh;
+
 }
 }
 
 @media screen and (min-width: 1441px) {
   #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: #222;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
     background-blend-mode: normal;
-    min-height: 100vh;
+
 }
 }
 
@@ -644,12 +668,11 @@ div[role=document] a[role=button]{
   }
 
   #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, 0.7), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
+    background: #222;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
     background-blend-mode: normal;
-    min-height: 560px;
   }
 
 }

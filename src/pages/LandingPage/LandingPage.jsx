@@ -25,6 +25,9 @@ import TeamSection from "./Sections/TeamSection.jsx";
 
 import gridVideo from "/src/assets/img/grid.mp4";
 
+import shed from "assets/img/shed.jpg"
+import colorLogo from "assets/img/colorlogo.png";
+
 import { Link } from "gatsby";
 
 const dashboardRoutes = [];
@@ -48,23 +51,22 @@ class LandingPage extends React.Component {
         />
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={9} md={8} lg={8} xl={8}>
+              <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+              <img defer src={shed} id="shed" alt="Vannevar Decrypt" />
+              </GridItem>
+            </GridContainer>
+            <GridContainer>
+              <GridItem xs={12} sm={12} md={4} lg={4} xl={4}>
                 <h1 className={classes.title}>Silicon Valley technology for critical national security problems.</h1>
-                <GridItem xs={12} sm={11} md = {11} lg = {11} xl={11} id="top-details">
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} lg={4} xl={4}>
+              <img id="colorlogo-mid" defer src={colorLogo} alt="Vannevar Decrypt" />
+              </GridItem>
+              <GridItem xs={12} sm={12} md = {4} lg = {4} xl={4} id="top-details">
                 <h4>
                   <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to advance the state of the art in national defense technology and support public servants working on the country’s most important problems.
                 </h4>
-                <Button
-                  color="info"
-                  href="/contact"
-                  id="top-button"
-                  size="lg"
-                  rel="noopener noreferrer"
-                >
-                  <Link to="/contact">Contact us</Link>
-                </Button>
                 </GridItem>
-              </GridItem>
             </GridContainer>
           </div>
         </div>
