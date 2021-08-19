@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
                 <p id="alert">
-                  <b>NEW!</b> Read more about Vannevar Labs' latest round of funding!
+                  <b>NEW!</b> Click here to read the latest news from Vannevar Labs!
                 </p>
               </GridItem>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>

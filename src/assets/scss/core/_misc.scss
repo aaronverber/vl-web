@@ -728,17 +728,26 @@ a[role=button] {
   font-size: 14px;
 }
 
+#people a:hover{
+  color: #000;
+}
 
+#people a:visited{
+  color: #000;
+}
 
 #jobs{
   color:white;
 }
 
-#jobs:hover{
+#jobs:hover u{
   text-decoration: underline #fff 2px!important;
+  color: white;
 }
 
-
+#jobs:visited u{
+  color: white;
+}
 
 header h3{
   margin: 10px 0 10px 0;
