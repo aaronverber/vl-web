@@ -27,6 +27,7 @@ import gridVideo from "/src/assets/img/grid.mp4";
 
 import shed from "assets/img/shed.jpg"
 import colorLogo from "assets/img/colorlogo.png";
+import logos from "assets/img/logos.png";
 
 import { Link } from "gatsby";
 
@@ -51,6 +52,11 @@ class LandingPage extends React.Component {
         />
           <div className={classes.container}>
             <GridContainer>
+              <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+                <p id="alert">
+                  <b>NEW!</b> Read more about Vannevar Labs' latest round of funding!
+                </p>
+              </GridItem>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
               <img defer src={shed} id="shed" alt="Vannevar Decrypt" />
               </GridItem>
@@ -78,15 +84,26 @@ class LandingPage extends React.Component {
             <ProductSection />
           </div>
         </div>
-        <div className={classNames(classes.main)}>
+        
+        <div className="people-holder">
           <div className={classes.container}>   
             <TeamSection />
           </div>
+
           <div id="big-quote">
-            <p>"We think that <b>the people that defend our country</b> should have access to <b>the best tools and technologies</b> to do their job. We know these people, we used to work with them, <b>and we want to help them</b>.”</p>
-            <h3>Brett Granberg, CEO</h3>
+            <GridContainer>
+            <GridItem xs={12} sm={12} md={3} lg={3} xl={3}>
+            <img defer src={logos} id="logos" alt="Vannevar Decrypt" />
+            </GridItem>
+            <GridItem xs={12} sm={12} md={8} lg={8} xl={8}>
+              <p>"We think that the people that defend our country should have access to <b>the best tools and technologies</b> to do their job. We know these people, we used to work with them, <b>and we want to help them</b>.”</p>
+              <p><b>Brett Granberg | CEO</b></p>
+            </GridItem>
+          </GridContainer>
+            
           </div>
         </div>
+
         <div id="news" className={classes.main}>
         <div className={classes.container}>
           <GridContainer>

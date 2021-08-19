@@ -33,7 +33,7 @@ class TeamSection extends React.Component {
         <div>
           <GridContainer id="peopleall">
           <GridItem  xs={12} sm={6} md={6} lg={6} xl={6}>
-          <h1 className={classes.title} style={{textAlign: "left"}}>A team of experts.</h1>
+          <h1 className={classes.title} style={{textAlign: "left", fontWeight: "300"}}>A team of experts.</h1>
           <p>Our team of experts have backgrounds from across the Intelligence Community, Department of Defense, and Silicon Valley, with decades of success solving our country’s biggest challenges.</p>
           <Button
                   color="info"

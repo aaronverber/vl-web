@@ -278,10 +278,16 @@ form {
 
 #people{
   text-align: left;
+  background-color: #222;
+}
+
+#people h1{
+color: white;
+font-weight: 300;
 }
 
 #people p{
-  color: #000;
+  color: #fff;
   font-size: 18px;
   text-align: left;
   line-height: 150%;
@@ -296,28 +302,23 @@ form {
   align-items: center;
 }
 
-#people a{
-  color: #000;
-}
 
-#people a:visited{
-  color: #000;
-}
 
 #people img{
   margin-bottom: 10px;
 }
 
 #big-quote {
-  background: url("../../assets/img/logosvg.svg"), #002642;
+  background: #333;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 75%;
   background-blend-mode: overlay;
   height: 100%;
   text-align: center;
-  padding: 60px 200px;
+  padding: 60px 100px;
   color: #fff;
+  font-family: "Saira Semi Condensed";
 }
 
 #big-quote h3{
@@ -327,16 +328,23 @@ form {
 #big-quote p{
   font-size: 24px;
   letter-spacing: 2px;
-  line-height: 40px;
-  padding-top: 50px;
-  max-width: 1140px;
-  margin: auto;
+  line-height: 36px;
+  text-align: left;
+}
+
+#logos{
+  max-width: 200px;
+  height: auto;
 }
 
 #news {
-  background: linear-gradient(270deg, #000000 0%, #222 50%, #000000 100%);;
+  background: #222;
   padding: 30px 0 50px 0;
   min-height: 400px;
+}
+
+#news h1{
+  font-weight: 300;
 }
 
 #news h3{
@@ -677,6 +685,10 @@ div[role=document] a[role=button]{
 
 }
 
+.people-holder{
+  background-color: #222;
+}
+
 a[role=button] {
   text-transform: none!important;
   font-size: 18px;
@@ -716,8 +728,14 @@ a[role=button] {
   font-size: 14px;
 }
 
+
+
+#jobs{
+  color:white;
+}
+
 #jobs:hover{
-  text-decoration: underline #000 2px!important;
+  text-decoration: underline #fff 2px!important;
 }
 
 
@@ -790,4 +808,16 @@ header button a:hover{
 #contact-button:hover{
   box-shadow: 0 2px 10px #68C4FF;
   cursor: pointer;
+}
+
+#alert{
+  width: 100%;
+  background: #68C4FF;
+  margin-bottom: 0px;
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px;
 }
