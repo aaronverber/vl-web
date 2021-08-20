@@ -70,7 +70,7 @@ class LandingPage extends React.Component {
               </GridItem>
               <GridItem xs={12} sm={12} md = {4} lg = {4} xl={4} id="top-details">
                 <h4>
-                  <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to advance the state of the art in national defense technology and support public servants working on the country’s most important problems.
+                  <b>VANNEVAR LABS</b> combines top software engineering talent with decades of mission experience to get state of the art technology to the people that keep us safe.
                 </h4>
                 </GridItem>
             </GridContainer>
