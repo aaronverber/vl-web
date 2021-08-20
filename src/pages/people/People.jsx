@@ -56,7 +56,7 @@ class People extends React.Component {
           {...rest}
         />
           <div className={classes.container}>
-            <GridContainer style = {{justifyContent: "center", textAlign: "center"}}>
+            <GridContainer style = {{justifyContent: "center", textAlign: "center", maxWidth: "1440px", margin: "auto"}}>
               <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
                 <h1 className={classes.title}>Our team lives the mission every day.</h1>
                 <p>
@@ -80,8 +80,12 @@ class People extends React.Component {
 
         <div id="bio-holder">
         <div className={classes.container}>
-          <h1>Our team</h1>
-            <GridContainer style = {{justifyContent: "center"}}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+        <h1>Our team</h1>
+        </GridContainer>
+          
+            <GridContainer style = {{justifyContent: "center", maxWidth: "1440px", margin: "auto"}}>
+            
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
             <img defer src={brett} alt="..." />
                 <h2>Brett Granberg</h2>
@@ -121,7 +125,7 @@ class People extends React.Component {
 
         <div id="bio-holder-next">
         <div className={classes.container}>
-            <GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
 
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nathan} alt="..." />
@@ -160,7 +164,7 @@ class People extends React.Component {
 
         <div id="bio-holder">
         <div className={classes.container}>
-            <GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={alex} alt="..." />
                 <h2>Alex Williams</h2>
@@ -200,7 +204,7 @@ class People extends React.Component {
 
         <div id="bio-holder-next">
         <div className={classes.container}>
-            <GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ngoc} alt="..." />
                 <h2>Ngoc Do</h2>
@@ -235,8 +239,10 @@ class People extends React.Component {
 
         <div id="bio-holder">
         <div className={classes.container}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
         <h1>Our advisors</h1>
-            <GridContainer>
+        </GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={danny} alt="..." />
                 <h2>Danny Goodman</h2>

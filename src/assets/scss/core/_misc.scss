@@ -6,6 +6,7 @@ body {
   margin: auto;
   font-size: 1rem;
   background-color: #222!important;
+
 }
 body,
 h1,
@@ -88,6 +89,8 @@ legend {
 
 header{
   margin-top: 0px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 // Prevent highlight on mobile
@@ -498,6 +501,10 @@ font-weight: 300;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
+  max-width: 1440px; 
+  margin: auto;
+  min-height: 50vh;
+
 }
 
 #contact p{
@@ -510,6 +517,7 @@ font-weight: 300;
 
 #contact form {
   padding-top: 25px;
+  padding-right: 25px;
 }
 
 #name, #email, #message  {
