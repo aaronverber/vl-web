@@ -280,6 +280,8 @@ form {
 #people{
   text-align: left;
   background-color: #222;
+  max-width: 1440px;
+  margin: auto;
 }
 
 #people h1{
@@ -347,6 +349,8 @@ font-weight: 300;
   background: #222;
   padding: 30px 0 50px 0;
   min-height: 400px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 #news h1{
@@ -381,6 +385,8 @@ font-weight: 300;
   background: #222;
   position: relative;
   z-index: 200;
+  max-width: 1440px;
+  margin:auto;
 }
 
 #top-details{
@@ -824,7 +830,9 @@ footer #blue {
 }
 
 #footerMain{
-  display: block
+  display: block;
+  max-width: 1440px;
+  margin: auto;
 }
 
 #footerInner{
