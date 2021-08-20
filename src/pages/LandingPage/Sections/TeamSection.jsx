@@ -16,7 +16,7 @@ import nini from "assets/img/faces/nini.jpg";
 import erin from "assets/img/faces/erin.jpg";
 import nathan from "assets/img/faces/nathan.jpg";
 import nate from "assets/img/faces/nate.jpg";
-import alex from "assets/img/faces/alex.jpg";
+import scott from "assets/img/faces/scott_s.jpg";
 
 import { Link } from "gatsby";
 
@@ -60,7 +60,7 @@ class TeamSection extends React.Component {
               <img defer src={nate} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img defer src={alex} alt="..." className={imageClasses} />
+              <img defer src={scott} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
               <img defer src={erin} alt="..." className={imageClasses} />

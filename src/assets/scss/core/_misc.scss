@@ -5,8 +5,7 @@ html * {
 body {
   margin: auto;
   font-size: 1rem;
-  background-color: #111111!important;
-  max-width: 1440px;
+  background-color: #222!important;
 }
 body,
 h1,
@@ -153,10 +152,9 @@ header li{
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 150px;
+  width: 250px;
   margin-top: -50px;
   margin-bottom: -50px;
-  width: 250px;
 
 }
 
@@ -223,11 +221,14 @@ form {
 #decrypt {
     background: rgba(0, 0, 0, 0.5);
     overflow:hidden;
-    min-width: 100%;
     width: auto;
     text-align: left;
     position: relative;
-    z-index: -1000;
+    max-width: 1440px;
+    margin: auto;
+    box-shadow: #111 0px  5px 50px;
+    position: relative;
+    z-index: 100;
 }
 
 #decrypt h1, #decrypt h2, #decrypt h3, #decrypt h4 {
@@ -319,6 +320,8 @@ font-weight: 300;
   padding: 60px 100px;
   color: #fff;
   font-family: "Saira Semi Condensed";
+  max-width: 1440px;
+  margin:auto;
 }
 
 #big-quote h3{
@@ -330,11 +333,14 @@ font-weight: 300;
   letter-spacing: 2px;
   line-height: 36px;
   text-align: left;
+  padding-left: 30px; 
 }
 
 #logos{
   max-width: 200px;
   height: auto;
+  margin-bottom: 15px;
+
 }
 
 #news {
@@ -373,7 +379,8 @@ font-weight: 300;
 
 #top{
   background: #222;
-
+  position: relative;
+  z-index: 200;
 }
 
 #top-details{
@@ -466,7 +473,6 @@ font-weight: 300;
 .bio img{
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 20px;
   object-fit: cover;
   object-position: top center;
 }
@@ -525,6 +531,27 @@ font-weight: 300;
 
   header button{
     margin: 0px;
+  }
+
+  #colorlogo-mid{
+    width: 100px;
+  }
+
+  #top h1{
+    text-align: center;
+    padding: 40px;
+    margin-top:0px;
+    margin-bottom: 10px;
+  }
+
+  #top-details h4{
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+  }
+
+  #big-quote{
+    padding: 50px; 
   }
 
   }
@@ -601,6 +628,29 @@ font-weight: 300;
 
   #decryptRight{
     margin-left: 0px;
+  }
+
+  #colorlogo-mid{
+    width: 100px;
+  }
+
+  #top h1{
+    text-align: center;
+    padding: 40px;
+    margin-top: 0px;
+  }
+
+  #top-details h4{
+    text-align: center;
+    padding: 40px;
+  }
+
+  #people{
+    padding: 30px; 
+  }
+
+  #big-quote{
+    padding: 30px;
   }
 
 
@@ -821,9 +871,9 @@ header button a:hover{
 
 #alert{
   width: 100%;
-  background: #68C4FF;
+  background: #333;
   margin-bottom: 0px;
-  color: #000;
+  color: #fff;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
