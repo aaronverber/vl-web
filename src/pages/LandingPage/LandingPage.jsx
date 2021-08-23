@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
                 <p id="alert">
-                  <b>NEW!</b> Click here to read the latest announcement from Vannevar Labs!
+                  <a href="https://medium.com/@Vannevar_Labs/vannevar-labs-raises-12m-in-series-a-funding-380ce002a676"><b>VANNEVAR LABS</b> raises $12M in Series A Funding  <b>&#8594;</b></a>
                 </p>
               </GridItem>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -113,8 +113,15 @@ class LandingPage extends React.Component {
           </GridContainer>
           <GridContainer>
           <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
-              <h3><a target="_blank" rel="noreferrer" href="https://blog.executivebiz.com/2019/09/vannevar-labs-seeks-to-support-intell-agencies-with-ai-tech-brett-granberg-quoted/">New Headline Goes Here</a></h3>
+              <h3><a target="_blank" rel="noreferrer" href="https://techcrunch.com/2021/08/23/vannevar-labs-series-a/">With more cash and a launch, Vannevar Labs is reconnecting Silicon Valley to its defense industry roots</a></h3>
               <h4>TechCrunch, August 23, 2021</h4>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+              <h3><a target="_blank" rel="noreferrer" href="https://medium.com/@Vannevar_Labs/vannevar-labs-raises-12m-in-series-a-funding-380ce002a676">Vannevar Labs raises $12M in Series A Funding</a></h3>
+              <h4>Medium, August 23, 2021</h4>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={12} lg={12} xl={12} style={{paddingTop: "25px"}}>
+              <hr></hr>
             </GridItem>
             <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
               <h3><a target="_blank" rel="noreferrer" href="https://blog.executivebiz.com/2019/09/vannevar-labs-seeks-to-support-intell-agencies-with-ai-tech-brett-granberg-quoted/">Vannevar Labs Seeks to Support Intel Agencies with AI Tech</a></h3>

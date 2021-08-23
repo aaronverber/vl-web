@@ -161,6 +161,14 @@ header li{
 
 }
 
+#alert a:visited{
+  color: white;
+}
+
+#alert a:hover{
+  text-decoration: underline 1px solid white;
+}
+
 #top h1{
   color:#fff;
   line-height: 110%;
@@ -376,6 +384,10 @@ font-weight: 300;
   margin: 0px;
   padding: 0px;
   font-weight: 700;
+}
+
+#news hr{
+  border-bottom: #333;
 }
 
 #news a{
