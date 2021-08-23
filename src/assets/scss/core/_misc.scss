@@ -825,14 +825,15 @@ footer #blue {
 
 #footerMain{
   display: block;
-  max-width: 1440px;
   margin: auto;
+  background: white;
 }
 
 #footerInner{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  max-width: 1440px;
 }
 
 #footerLeft{
