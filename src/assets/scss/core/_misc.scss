@@ -5,7 +5,7 @@ html * {
 body {
   margin: auto;
   font-size: 1rem;
-  background-color: #222!important;
+  background-color: #1A1A1A!important;
 
 }
 body,
@@ -288,7 +288,7 @@ form {
 
 #people{
   text-align: left;
-  background-color: #222;
+  background-color: #1A1A1A;
   max-width: 1440px;
   margin: auto;
 }
@@ -355,7 +355,7 @@ font-weight: 300;
 }
 
 #news {
-  background: #222;
+  background: #1A1A1A;
   padding: 30px 0 50px 0;
   min-height: 400px;
   max-width: 1440px;
@@ -391,7 +391,7 @@ font-weight: 300;
 }
 
 #top{
-  background: #222;
+  background: #1A1A1A;
   position: relative;
   z-index: 200;
   max-width: 1440px;
@@ -579,14 +579,7 @@ font-weight: 300;
   }
 
 @media screen and (min-width: 960px) and (max-width: 1200px){
-  #top {
-    background: #222;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-blend-mode: normal;
 
-  }
   #contact{
     background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
@@ -598,14 +591,7 @@ font-weight: 300;
 
 
 @media screen and (min-width: 700px) and (max-width: 960px){
-  #top{
-    background: #222;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom center;
-    background-blend-mode: normal;
 
-}
   #contact{
     background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
@@ -616,27 +602,8 @@ font-weight: 300;
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 699px){
-  #top{
-    background: #222;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom center;
-    background-blend-mode: normal;
 
-}
-}
 
-@media screen and (min-width: 1441px) {
-  #top{
-    background: #222;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
-    background-blend-mode: normal;
-
-}
-}
 
 @media screen and (max-width: 500px) {
   #footerInner{
@@ -752,18 +719,12 @@ div[role=document] a[role=button]{
     top: 0%;
   }
 
-  #top{
-    background: #222;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
-    background-blend-mode: normal;
-  }
+
 
 }
 
 .people-holder{
-  background-color: #222;
+  background-color: #1A1A1A;
 }
 
 a[role=button] {
