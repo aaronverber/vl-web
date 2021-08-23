@@ -167,6 +167,7 @@ header li{
 
 #alert a:hover{
   text-decoration: underline 1px solid white!important;
+  color: white;
 }
 
 #top h1{
@@ -876,10 +877,14 @@ header button a:hover{
   width: 100%;
   background: #333;
   margin-bottom: 0px;
-  color: #fff;
+  color: #fff!important;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   padding: 10px;
+}
+
+#alert a{
+  color: white!important;
 }
