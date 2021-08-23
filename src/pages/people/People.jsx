@@ -29,6 +29,8 @@ import harrison from "assets/img/faces/harrison.jpg";
 import aaron from "assets/img/faces/aaron.jpg";
 import will from "assets/img/faces/will.jpg";
 
+import joseph from "assets/img/faces/joseph.jpg";
+
 import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
 import danny from "assets/img/faces/danny.jpg";
@@ -147,7 +149,7 @@ class People extends React.Component {
                 <h2>Nick Hanson</h2>
                 <h3>Mission Success Lead</h3>
                 
-                <p>Nick Hanson is a former intelligence officer in the USMC. Nick served his career in the Indo-Pacific Command with rotations to East, Southeast and South Asia. Nick graduated with Distinction from the United States Naval Academy where he studied Arabic and Middle Eastern studies. He is on leave from a joint MPP / MBA at the Harvard Kennedy School and Harvard Business School.</p>
+                <p>Nick Hanson is a former Marine intelligence officer. He served in the Indo-Pacific Command with rotations to East, Southeast and South Asia. Nick graduated with Distinction from the United States Naval Academy where he studied Arabic and Middle Eastern studies. He is on leave from the joint MPP / MBA program at the Harvard Kennedy School of Government and Harvard Business School.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={eric} alt="..." />
@@ -186,7 +188,7 @@ class People extends React.Component {
                 <h2>Will Golinkin</h2>
                 <h3>Mission Development Lead</h3>
 
-                <p>Will Golinkin was born and raised in Houston, TX. After graduating from Dickinson College in 2013, he spent a year working in asset management for J.P. Morgan in Houston. He then joined the Marine Corps, where he served five years as a Communications Officer and Platoon Commander at 1st Battalion, 5th Marine Regiment at Camp Pendleton, CA. After transitioning out of the military, Will graduated from the Stanford Graduate School of Business, where he got introduced to Vannevar Labs.</p>
+                <p>Will Golinkin was born and raised in Houston, TX. After graduating from Dickinson College in 2013, he spent a year working in asset management for J.P. Morgan in Houston. He then joined the Marine Corps, where he served five years as a Communications Officer and Platoon Commander at 1st Battalion, 5th Marine Regiment. After transitioning out of the military, Will graduated from the Stanford Graduate School of Business, where he was introduced to the founding team at Vannevar Labs.</p>
               </GridItem>
               
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
@@ -205,6 +207,13 @@ class People extends React.Component {
         <div id="bio-holder-next">
         <div className={classes.container}>
             <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={joseph} alt="..." />
+                <h2>Joseph Lombardo</h2>
+                <h3>Software Engineer</h3>
+
+                <p>Joseph Lombardo was born and raised in Stokesdale, NC. He has been working in the DevOps and Software Engineering space for well over a decade. Prior to Vannevar Labs, Joseph was a lead engineer at NetFoundry, Inc. where he helped build the core network and security automation platform.</p>
+              </GridItem>  
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ngoc} alt="..." />
                 <h2>Ngoc Do</h2>
@@ -226,6 +235,13 @@ class People extends React.Component {
 
                   <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
                 </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+
+        <div id="bio-holder">
+        <div className={classes.container}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
                 <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <img defer src={aaron} alt="..." />
                   <h2>Aaron Verber</h2>
@@ -237,7 +253,7 @@ class People extends React.Component {
           </div>
         </div>
 
-        <div id="bio-holder">
+        <div id="bio-holder-next">
         <div className={classes.container}>
         <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
         <h1>Our advisors</h1>
@@ -271,7 +287,7 @@ class People extends React.Component {
         <div className={classes.container}>
             <GridContainer style = {{justifyContent: "center"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{textAlign: "center"}}>
-            <img defer src={culture} alt="..." />
+            <img defer src={culture} style={{maxWidth: "300px"}} alt="..." />
                 <h2>Join our team!</h2>
                 <p>We're building tools to support public servants working on the country’s most important problems.</p>
                 <Button
