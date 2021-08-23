@@ -3,8 +3,10 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
+  margin: auto;
   font-size: 1rem;
-  background-color: #111111!important;
+  background-color: #1A1A1A!important;
+
 }
 body,
 h1,
@@ -77,7 +79,6 @@ html {
 body {
   background-color: #e5e5e5;
   color: #000;
-  margin: 0;
   font-size: 1rem;
   text-align: left;
 }
@@ -88,6 +89,8 @@ legend {
 
 header{
   margin-top: 0px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 // Prevent highlight on mobile
@@ -135,7 +138,7 @@ header button {
 }
 
 header li{
-  padding-right: 50px!important;
+  padding-left: 50px!important;
 }
 
 
@@ -143,21 +146,51 @@ header li{
   fill: #fff;
 }
 
+#shed{
+  max-width: inherit;
+}
 
+#colorlogo-mid{
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+
+}
+
+#alert a:visited{
+  color: white;
+}
+
+#alert a:hover{
+  text-decoration: underline 1px solid white;
+}
 
 #top h1{
   color:#fff;
   line-height: 110%;
-  margin-top: 0px;
-  text-shadow: 0 2px 4px rgba(0,0,0,.3);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 200;
+  font-size: 36px;
+  position: relative;
+  top: 10%;
+  height: 100%;
 }
 
 #top h4{
   color: white;
   font-size: 18px;
-  text-shadow: 0 2px 3px rgba(0,0,0,.2);
+  margin-top: 40px;
   font-weight: 400;
+  position: relative;
+  height: 100%;
+  top: 15%;
 }
+
 
 
 
@@ -205,9 +238,14 @@ form {
 #decrypt {
     background: rgba(0, 0, 0, 0.5);
     overflow:hidden;
-    min-width: 100%;
     width: auto;
     text-align: left;
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    box-shadow: #111 0px  5px 50px;
+    position: relative;
+    z-index: 100;
 }
 
 #decrypt h1, #decrypt h2, #decrypt h3, #decrypt h4 {
@@ -258,10 +296,18 @@ form {
 
 #people{
   text-align: left;
+  background-color: #1A1A1A;
+  max-width: 1440px;
+  margin: auto;
+}
+
+#people h1{
+color: white;
+font-weight: 300;
 }
 
 #people p{
-  color: #000;
+  color: #fff;
   font-size: 18px;
   text-align: left;
   line-height: 150%;
@@ -276,28 +322,25 @@ form {
   align-items: center;
 }
 
-#people a{
-  color: #000;
-}
 
-#people a:visited{
-  color: #000;
-}
 
 #people img{
   margin-bottom: 10px;
 }
 
 #big-quote {
-  background: url("../../assets/img/logosvg.svg"), #002642;
+  background: #333;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 75%;
   background-blend-mode: overlay;
   height: 100%;
   text-align: center;
-  padding: 60px 200px;
+  padding: 60px 100px;
   color: #fff;
+  font-family: "Saira Semi Condensed";
+  max-width: 1440px;
+  margin:auto;
 }
 
 #big-quote h3{
@@ -307,16 +350,28 @@ form {
 #big-quote p{
   font-size: 24px;
   letter-spacing: 2px;
-  line-height: 40px;
-  padding-top: 50px;
-  max-width: 1140px;
-  margin: auto;
+  line-height: 36px;
+  text-align: left;
+  padding-left: 30px; 
+}
+
+#logos{
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+
 }
 
 #news {
-  background: linear-gradient(270deg, #000000 0%, #222 50%, #000000 100%);;
+  background: #1A1A1A;
   padding: 30px 0 50px 0;
   min-height: 400px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+#news h1{
+  font-weight: 300;
 }
 
 #news h3{
@@ -329,6 +384,10 @@ form {
   margin: 0px;
   padding: 0px;
   font-weight: 700;
+}
+
+#news hr{
+  border-bottom: #333;
 }
 
 #news a{
@@ -344,17 +403,25 @@ form {
 }
 
 #top{
-  background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-blend-mode: normal;
-  min-height: 100vh;
+  background: #1A1A1A;
+  position: relative;
+  z-index: 200;
+  max-width: 1440px;
+  margin:auto;
 }
 
 #top-details{
   margin-left: 0px;
   padding-left: 0px;
+  text-align: right;
+}
+
+#colorLogo svg path {
+  border-image-source: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
+  stroke-width: 2;
+  stroke: white;
+  stroke-linejoin: miter;
+  border: 2px solid;
 }
 
 #vannevar{
@@ -433,7 +500,6 @@ form {
 .bio img{
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 20px;
   object-fit: cover;
   object-position: top center;
 }
@@ -447,7 +513,10 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
-  min-height: 90vh;
+  max-width: 1440px; 
+  margin: auto;
+  min-height: 50vh;
+
 }
 
 #contact p{
@@ -460,6 +529,7 @@ form {
 
 #contact form {
   padding-top: 25px;
+  padding-right: 25px;
 }
 
 #name, #email, #message  {
@@ -495,17 +565,33 @@ form {
     margin: 0px;
   }
 
+  #colorlogo-mid{
+    width: 100px;
+  }
+
+  #top h1{
+    text-align: center;
+    padding: 40px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    top: 0%;
+  }
+
+  #top-details h4{
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+    top: 0%;
+  }
+
+  #big-quote{
+    padding: 50px; 
+  }
+
   }
 
 @media screen and (min-width: 960px) and (max-width: 1200px){
-  #top {
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-blend-mode: normal;
-    min-height: 80vh;
-  }
+
   #contact{
     background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
@@ -517,14 +603,7 @@ form {
 
 
 @media screen and (min-width: 700px) and (max-width: 960px){
-  #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom center;
-    background-blend-mode: normal;
-    min-height: 80vh;
-}
+
   #contact{
     background: url("../../assets/img/vannevar.jpg");
     background-repeat: no-repeat;
@@ -535,27 +614,8 @@ form {
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 699px){
-  #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .5), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom center;
-    background-blend-mode: normal;
-    min-height: 80vh;
-}
-}
 
-@media screen and (min-width: 1441px) {
-  #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, .2), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
-    background-blend-mode: normal;
-    min-height: 100vh;
-}
-}
+
 
 @media screen and (max-width: 500px) {
   #footerInner{
@@ -569,6 +629,29 @@ form {
 
   #decryptRight{
     margin-left: 0px;
+  }
+
+  #colorlogo-mid{
+    width: 100px;
+  }
+
+  #top h1{
+    text-align: center;
+    padding: 40px;
+    margin-top: 0px;
+  }
+
+  #top-details h4{
+    text-align: center;
+    padding: 40px;
+  }
+
+  #people{
+    padding: 30px; 
+  }
+
+  #big-quote{
+    padding: 30px;
   }
 
 
@@ -638,20 +721,22 @@ div[role=document] a[role=button]{
     font-size: 12px;
   }
 
+  #top h1{
+    top: 0%;
+  }
+
   #top h4{
     font-size: 16px;
     padding-bottom: 20px;
+    top: 0%;
   }
 
-  #top{
-    background: linear-gradient(0deg, rgba(0, 38, 66, 0.7), rgba(0, 38, 66, 1)), linear-gradient(180deg, rgba(0, 0, 0, 0) 95.14%, rgba(0, 0, 0, 0.41) 100%),url("../../assets/img/shed.jpg"), #FAFDFE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
-    background-blend-mode: normal;
-    min-height: 560px;
-  }
 
+
+}
+
+.people-holder{
+  background-color: #1A1A1A;
 }
 
 a[role=button] {
@@ -693,11 +778,26 @@ a[role=button] {
   font-size: 14px;
 }
 
-#jobs:hover{
-  text-decoration: underline #000 2px!important;
+#people a:hover{
+  color: #000;
 }
 
+#people a:visited{
+  color: #000;
+}
 
+#jobs{
+  color:white;
+}
+
+#jobs:hover u{
+  text-decoration: underline #fff 2px!important;
+  color: white;
+}
+
+#jobs:visited u{
+  color: white;
+}
 
 header h3{
   margin: 10px 0 10px 0;
@@ -724,13 +824,16 @@ footer #blue {
 }
 
 #footerMain{
-  display: block
+  display: block;
+  margin: auto;
+  background: white;
 }
 
 #footerInner{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  max-width: 1440px;
 }
 
 #footerLeft{
@@ -767,4 +870,16 @@ header button a:hover{
 #contact-button:hover{
   box-shadow: 0 2px 10px #68C4FF;
   cursor: pointer;
+}
+
+#alert{
+  width: 100%;
+  background: #333;
+  margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px;
 }

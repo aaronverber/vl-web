@@ -11,21 +11,29 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
-import danny from "assets/img/faces/danny.jpg";
-import nathan from "assets/img/faces/nathan.jpg";
+import scott_s from "assets/img/faces/scott_s.jpg";
+import erin from "assets/img/faces/erin.jpg";
 
+import nathan from "assets/img/faces/nathan.jpg";
 import nate from "assets/img/faces/nate.jpg";
-import alex from "assets/img/faces/alex.jpg";
 import nick from "assets/img/faces/nick.jpg";
 import eric from "assets/img/faces/eric.jpg";
 
-import erin from "assets/img/faces/erin.jpg";
+import alex from "assets/img/faces/alex.jpg";
 import scott from "assets/img/faces/scott.jpg";
 import ngoc from "assets/img/faces/ngoc.jpg";
+import chris from "assets/img/faces/chris.jpg";
+
+import nate_d from "assets/img/faces/nate_d.jpg";
 import harrison from "assets/img/faces/harrison.jpg";
+import aaron from "assets/img/faces/aaron.jpg";
+import will from "assets/img/faces/will.jpg";
+
+import joseph from "assets/img/faces/joseph.jpg";
 
 import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
+import danny from "assets/img/faces/danny.jpg";
 
 import culture from "assets/img/culture.png";
 
@@ -50,7 +58,7 @@ class People extends React.Component {
           {...rest}
         />
           <div className={classes.container}>
-            <GridContainer style = {{justifyContent: "center", textAlign: "center"}}>
+            <GridContainer style = {{justifyContent: "center", textAlign: "center", maxWidth: "1440px", margin: "auto"}}>
               <GridItem xs={12} sm={8} md={7} lg={7} xl={7} style = {{marginBottom: "50px"}}>
                 <h1 className={classes.title}>Our team lives the mission every day.</h1>
                 <p>
@@ -74,8 +82,12 @@ class People extends React.Component {
 
         <div id="bio-holder">
         <div className={classes.container}>
-          <h1>Our team</h1>
-            <GridContainer style = {{justifyContent: "center"}}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+        <h1>Our team</h1>
+        </GridContainer>
+          
+            <GridContainer style = {{justifyContent: "center", maxWidth: "1440px", margin: "auto"}}>
+            
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
             <img defer src={brett} alt="..." />
                 <h2>Brett Granberg</h2>
@@ -94,6 +106,30 @@ class People extends React.Component {
               </GridItem>
 
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+            <img defer src={scott_s} alt="..." />
+                <h2>Scott Sanders</h2>
+                <h3>Head of Business Development</h3>
+
+                <p>Scott Sanders is a former Marine Special Operations Officer who led the United States’ crisis response during the 2017 Battle of Marawi and was an early employee at Anduril Industries. Scott developed and led the first DoD contracts for Anduril and eventually created the Counter Unmanned X Systems program, building over 1.2B in contract vehicles in just under four years.</p>
+              </GridItem>
+
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+            <img defer src={erin} alt="..." />
+                <h2>Erin Biggers</h2>
+                <h3>Director of Mission Success</h3>
+
+                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Master in Public Policy from the University of Maryland.</p>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+
+
+        <div id="bio-holder-next">
+        <div className={classes.container}>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nathan} alt="..." />
                 <h2>Nathan Hartman</h2>
                 <h3>Engineering Manager</h3>
@@ -107,28 +143,13 @@ class People extends React.Component {
 
                 <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s over 1-billion device users.</p>
               </GridItem>
-            </GridContainer>
-          </div>
-        </div>
 
-
-        <div id="bio-holder-next">
-        <div className={classes.container}>
-            <GridContainer>
-
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={alex} alt="..." />
-                <h2>Alex Williams</h2>
-                <h3>Mission Development</h3>
-
-                <p>Alex Williams is a former Air Force Intelligence officer who specialized in analysis and targeting, providing intelligence support to air operations while serving across Europe, Southeast Asia, and the Middle East. He graduated from the U.S. Air Force Academy with a B.S. in Political Science and has since worked to advance technology integration within the DOD.</p>
-              </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nick} alt="..." />
                 <h2>Nick Hanson</h2>
-                <h3>Mission Success</h3>
+                <h3>Mission Success Lead</h3>
                 
-                <p>Nick Hanson is a former intelligence officer in the USMC. Nick served his career in the Indo-Pacific Command with rotations to East, Southeast and South Asia. Nick graduated with Distinction from the United States Naval Academy where he studied Arabic and Middle Eastern studies. He is on leave from a joint MPP / MBA at the Harvard Kennedy School and Harvard Business School.</p>
+                <p>Nick Hanson is a former Marine intelligence officer. He served in the Indo-Pacific Command with rotations to East, Southeast and South Asia. Nick graduated with Distinction from the United States Naval Academy where he studied Arabic and Middle Eastern studies. He is on leave from the joint MPP / MBA program at the Harvard Kennedy School of Government and Harvard Business School.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={eric} alt="..." />
@@ -137,13 +158,7 @@ class People extends React.Component {
 
                 <p>Eric Gibbs is a former Cryptologic Warfare Officer in the Navy with experience in both Intelligence and Operations roles. He provided signals intelligence analysis support to global military and intelligence community operations and deployed to the Middle East to conduct Information and Space Operations. He holds a BS from the U.S. Naval Academy where he studied Quantitative Economics.</p>
               </GridItem>
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-            <img defer src={erin} alt="..." />
-                <h2>Erin Biggers</h2>
-                <h3>Director of Mission Success</h3>
 
-                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Master in Public Policy from the University of Maryland.</p>
-              </GridItem>
             </GridContainer>
           </div>
         </div>
@@ -151,8 +166,31 @@ class People extends React.Component {
 
         <div id="bio-holder">
         <div className={classes.container}>
-            <GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={alex} alt="..." />
+                <h2>Alex Williams</h2>
+                <h3>Mission Development Lead</h3>
 
+                <p>Alex Williams is a former Air Force Intelligence officer who specialized in analysis and targeting, providing intelligence support to air operations while serving across Europe, Southeast Asia, and the Middle East. He graduated from the U.S. Air Force Academy with a B.S. in Political Science and has since worked to advance technology integration within the DOD.</p>
+              </GridItem>
+
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={chris} alt="..." />
+                <h2>Chris Molino</h2>
+                <h3>Mission Development Lead</h3>
+
+                <p>Chris Molino is a former Army special operations officer whose 20 year career focused on counterterrorism, crisis response, and U.S. policymaking. Chris's operational experience complements multiple staff roles in the Pentagon, intelligence community, and the White House. Chris holds BAs in Government and History from the College of William and Mary, and a Master of Policy Management from Georgetown University.</p>
+              </GridItem>
+
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={will} alt="..." />
+                <h2>Will Golinkin</h2>
+                <h3>Mission Development Lead</h3>
+
+                <p>Will Golinkin was born and raised in Houston, TX. After graduating from Dickinson College in 2013, he spent a year working in asset management for J.P. Morgan in Houston. He then joined the Marine Corps, where he served five years as a Communications Officer and Platoon Commander at 1st Battalion, 5th Marine Regiment. After transitioning out of the military, Will graduated from the Stanford Graduate School of Business, where he was introduced to the founding team at Vannevar Labs.</p>
+              </GridItem>
+              
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={scott} alt="..." />
                 <h2>Scott McCreary</h2>
@@ -161,7 +199,22 @@ class People extends React.Component {
                 <p>Scott McCreary is a Fullstack Software Engineer. He previously worked at Grailed, a peer-to-peer menswear marketplace, where he helped build best-in-class digital item authentication.</p>
                 <p>In a previous life, Scott was a musical theater actor (Dirty Dancing) and professional cellist (The Tonight Show, New Haven Symphony). He is the co-founder of Artists Who Code, a volunteer organization that helps artists learn to code and land jobs in tech.</p>
               </GridItem>
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+
+            </GridContainer>
+          </div>
+        </div>
+
+        <div id="bio-holder-next">
+        <div className={classes.container}>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={joseph} alt="..." />
+                <h2>Joseph Lombardo</h2>
+                <h3>Software Engineer</h3>
+
+                <p>Joseph Lombardo was born and raised in Stokesdale, NC. He has been working in the DevOps and Software Engineering space for well over a decade. Prior to Vannevar Labs, Joseph was a lead engineer at NetFoundry, Inc. where he helped build the core network and security automation platform.</p>
+              </GridItem>  
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ngoc} alt="..." />
                 <h2>Ngoc Do</h2>
                 <h3>Software Engineer</h3>
@@ -169,20 +222,43 @@ class People extends React.Component {
                 <p>Ngoc Do is a first generation college graduate, originally from Vietnam and raised in Seattle. He has been programming since high school and has interned and worked at companies such as Macy's, Avanade, Liberty Mutual, and Limeade.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={harrison} alt="..." />
-                <h2>Harrison Nguyen</h2>
-                <h3>Business Operations and Strategy</h3>
+                <img defer src={nate_d} alt="..." />
+                  <h2>Nate Diamond</h2>
+                  <h3>Software Engineer</h3>
 
-                <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
-              </GridItem>
+                  <p>Nate Diamond was an early software engineer at WELL Health, where he led development of foundational product capabilities and helped grow the engineering team. Before that, he graduated with a BS in Computer Science from UC Santa Barbara, where he worked on a variety of projects including work with the Department of Computational Neuroscience & leading development of the student-built interactive campus map. He was also previously a junior software developer for Octane5, where he scraped location data for more than 100,000 retail storefronts.</p>
+                </GridItem>
+                <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={harrison} alt="..." />
+                  <h2>Harrison Nguyen</h2>
+                  <h3>Business Operations and Strategy</h3>
+
+                  <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
+                </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+
+        <div id="bio-holder">
+        <div className={classes.container}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+                <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={aaron} alt="..." />
+                  <h2>Aaron Verber</h2>
+                  <h3>Designer</h3>
+
+                  <p>Aaron Verber is a designer, technical writer, and product manager with over a decade of experience in hardware and software. Most recently, he was a Product Manager and Lead Technical Writer at Marqeta. He has a BA from the University of Wisconsin Eau Claire.</p>
+                </GridItem>
             </GridContainer>
           </div>
         </div>
 
         <div id="bio-holder-next">
         <div className={classes.container}>
+        <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
         <h1>Our advisors</h1>
-            <GridContainer>
+        </GridContainer>
+            <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={danny} alt="..." />
                 <h2>Danny Goodman</h2>
@@ -211,7 +287,7 @@ class People extends React.Component {
         <div className={classes.container}>
             <GridContainer style = {{justifyContent: "center"}}>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={4} xl={4} style = {{textAlign: "center"}}>
-            <img defer src={culture} alt="..." />
+            <img defer src={culture} style={{maxWidth: "300px"}} alt="..." />
                 <h2>Join our team!</h2>
                 <p>We're building tools to support public servants working on the country’s most important problems.</p>
                 <Button
