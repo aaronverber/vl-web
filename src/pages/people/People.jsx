@@ -101,7 +101,7 @@ class People extends React.Component {
                 <h2>Nini Moorhead</h2>
                 <h3>COO</h3>
 
-                <p>Nini Moorhead is a former US intelligence officer who spent seven years working with counterterrorism mission groups, including embedded with the US military overseas. Nini also served as chief of staff to the Director of the National Counterterrorism Center.</p>
+                <p>Nini Moorhead is a former US intelligence officer who spent seven years working with counterterrorism mission groups, including embedding with the US military overseas. Nini also served as chief of staff to the Director of the National Counterterrorism Center.</p>
                 <p>Nini holds a BA from Harvard College, where she studied Middle Eastern History and Arabic, and an MBA from the Stanford Graduate School of Business.</p>
               </GridItem>
 
@@ -118,7 +118,7 @@ class People extends React.Component {
                 <h2>Erin Biggers</h2>
                 <h3>Director of Mission Success</h3>
 
-                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Master in Public Policy from the University of Maryland.</p>
+                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Masters in Public Policy from the University of Maryland.</p>
               </GridItem>
             </GridContainer>
           </div>
@@ -270,7 +270,7 @@ class People extends React.Component {
                 <h2>John Doyle</h2>
                 <h3>Head of National Security Business at Palantir</h3>
 
-                <p>John Doyle run Palantir’s National Security business and advises Vannevar on Sales. John graduated from Harvard Law School and served in the US Army Special Forces.</p>
+                <p>John Doyle runs Palantir’s National Security business and advises Vannevar on Sales. John graduated from Harvard Law School and served in the US Army Special Forces.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ian} alt="..." />
