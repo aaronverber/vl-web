@@ -30,6 +30,7 @@ import aaron from "assets/img/faces/aaron.jpg";
 import will from "assets/img/faces/will.jpg";
 
 import joseph from "assets/img/faces/joseph.jpg";
+import cane from "assets/img/faces/cane.jpg";
 
 import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
@@ -229,11 +230,11 @@ class People extends React.Component {
                   <p>Nate Diamond was an early software engineer at WELL Health, where he led development of foundational product capabilities and helped grow the engineering team. Before that, he graduated with a BS in Computer Science from UC Santa Barbara, where he worked on a variety of projects including work with the Department of Computational Neuroscience & leading development of the student-built interactive campus map. He was also previously a junior software developer for Octane5, where he scraped location data for more than 100,000 retail storefronts.</p>
                 </GridItem>
                 <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-                <img defer src={harrison} alt="..." />
-                  <h2>Harrison Nguyen</h2>
-                  <h3>Business Operations and Strategy</h3>
+                <img defer src={cane} alt="..." />
+                  <h2>Cane Punma</h2>
+                  <h3>Software Engineer</h3>
 
-                  <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
+                  <p>Cane Punma was previously a Machine Learning Scientist at PwC and Landis. At PwC, he helped build their Artificial Intelligence Research Team and products. At Landis, he helped build a product that coached clients to become homeowners as quickly as possible. Prior to that, Cane studied Industrial Engineering and Computer Science at Georgia Tech in Atlanta.</p>
                 </GridItem>
             </GridContainer>
           </div>
@@ -242,6 +243,13 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
         <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+        <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={harrison} alt="..." />
+                  <h2>Harrison Nguyen</h2>
+                  <h3>Business Operations and Strategy</h3>
+
+                  <p>Harrison Nguyen was a software engineer at Rally Health. Before that, he helped build products for early stage startups. He holds a BS and MS from UC Davis.</p>
+                </GridItem>
                 <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <img defer src={aaron} alt="..." />
                   <h2>Aaron Verber</h2>

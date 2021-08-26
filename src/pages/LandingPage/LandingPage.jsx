@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
                 <p id="alert">
-                  <a href="https://medium.com/@Vannevar_Labs/vannevar-labs-raises-12m-in-series-a-funding-380ce002a676"><b>VANNEVAR LABS</b> raises $12M in Series A Funding  <b>&#8594;</b></a>
+                  <a target="_blank" href="https://medium.com/@Vannevar_Labs/vannevar-labs-raises-12m-in-series-a-funding-380ce002a676"><b>VANNEVAR LABS</b> raises $12M in Series A Funding  <b>&#8594;</b></a>
                 </p>
               </GridItem>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -112,6 +112,10 @@ class LandingPage extends React.Component {
             </GridItem>
           </GridContainer>
           <GridContainer>
+          <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+              <h3><a target="_blank" rel="noreferrer" href="https://www.prnewswire.com/news-releases/vannevar-labs-announces-12m-series-a-funding-round-301362871.html">Vannevar Labs Announces $12M Series A Funding Round</a></h3>
+              <h4>Cision PR Newswire, August 25, 2021</h4>
+            </GridItem>
           <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
               <h3><a target="_blank" rel="noreferrer" href="https://techcrunch.com/2021/08/23/vannevar-labs-series-a/">With more cash and a launch, Vannevar Labs is reconnecting Silicon Valley to its defense industry roots</a></h3>
               <h4>TechCrunch, August 23, 2021</h4>
