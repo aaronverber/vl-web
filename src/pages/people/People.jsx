@@ -31,6 +31,7 @@ import will from "assets/img/faces/will.jpg";
 
 import joseph from "assets/img/faces/joseph.jpg";
 import cane from "assets/img/faces/cane.jpg";
+import aaron_lee from "assets/img/faces/aaron_lee.jpg";
 
 import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
@@ -244,6 +245,13 @@ class People extends React.Component {
         <div className={classes.container}>
         <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
         <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={aaron_lee} alt="..." />
+                  <h2>Aaron Lee</h2>
+                  <h3>Data Operations Engineer</h3>
+
+                  <p>Aaron Lee is a former Navy helicopter pilot with 12 years of experience in STEM education. He founded after-school coding programs for at-risk teens and developed multiple world-class youth robotics programs. He holds a BS from the U.S. Naval Academy where he studied Systems Engineering.</p>
+                </GridItem>
+        <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <img defer src={harrison} alt="..." />
                   <h2>Harrison Nguyen</h2>
                   <h3>Business Operations and Strategy</h3>
@@ -255,7 +263,7 @@ class People extends React.Component {
                   <h2>Aaron Verber</h2>
                   <h3>Designer</h3>
 
-                  <p>Aaron Verber is a designer, technical writer, and product manager with over a decade of experience in hardware and software. Most recently, he was a Product Manager and Lead Technical Writer at Marqeta. He has a BA from the University of Wisconsin Eau Claire.</p>
+                  <p>Aaron Verber is a designer, technical writer, and product manager with over a decade of experience in hardware and software documentation. Most recently, he was a Product Manager and Lead Technical Writer at Marqeta. He has a BA from the University of Wisconsin Eau Claire.</p>
                 </GridItem>
             </GridContainer>
           </div>
