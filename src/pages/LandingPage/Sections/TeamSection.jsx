@@ -15,7 +15,7 @@ import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
 import erin from "assets/img/faces/erin.jpg";
 import nathan from "assets/img/faces/nathan.jpg";
-import nate from "assets/img/faces/nate.jpg";
+import seanna from "assets/img/faces/seanna.jpg";
 import scott from "assets/img/faces/scott_s.jpg";
 
 import { Link } from "gatsby";
@@ -37,7 +37,7 @@ class TeamSection extends React.Component {
           <p>Our team of experts have backgrounds from across the Intelligence Community, Department of Defense, and Silicon Valley, with decades of success solving our country’s biggest challenges.</p>
           <Button
                   color="info"
-                  size="md"
+                  size="lg"
                   rel="noopener noreferrer"
                   href="/people"
                   style={{marginRight: "10px"}}
@@ -57,7 +57,7 @@ class TeamSection extends React.Component {
               <img defer src={nathan} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
-              <img defer src={nate} alt="..." className={imageClasses} />
+              <img defer src={seanna} alt="..." className={imageClasses} />
             </GridItem>
             <GridItem xs={4} sm={6} md={4} lg={4} xl={4} className={classes.itemGrid}>
               <img defer src={scott} alt="..." className={imageClasses} />

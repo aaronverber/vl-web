@@ -33,6 +33,8 @@ import joseph from "assets/img/faces/joseph.jpg";
 import cane from "assets/img/faces/cane.jpg";
 import aaron_lee from "assets/img/faces/aaron_lee.jpg";
 
+import seanna from "assets/img/faces/seanna.jpg";
+
 import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
 import danny from "assets/img/faces/danny.jpg";
@@ -130,7 +132,14 @@ class People extends React.Component {
         <div id="bio-holder-next">
         <div className={classes.container}>
             <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={seanna} alt="..." />
+                <h2>Seanna Senior</h2>
+                <h3>Head of Product</h3>
 
+                <p>Seanna is a Product Manager with start-up and big tech experience working across the entire product lifecycle.  She spent the last 4 years at Amazon focused on Alexa and Fire TV helping customers discover content.  Prior to her career in tech, Seanna worked in Morgan Stanley's Investment Banking practice.  She is also a Term Member on the Council on Foreign Relations.</p>
+                <p>Seanna graduated summa cum laude from the University of Pennsylvania with a BA in Philosophy, Politics, & Economics and Hispanic Studies, and earned an MBA with distinction from Harvard Business School.</p>
+            </GridItem>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nathan} alt="..." />
                 <h2>Nathan Hartman</h2>
@@ -149,17 +158,11 @@ class People extends React.Component {
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nick} alt="..." />
                 <h2>Nick Hanson</h2>
-                <h3>Mission Success Lead</h3>
+                <h3>Mission Strategy</h3>
                 
                 <p>Nick Hanson is a former Marine intelligence officer. He served in the Indo-Pacific Command with rotations to East, Southeast and South Asia. Nick graduated with Distinction from the United States Naval Academy where he studied Arabic and Middle Eastern studies. He is on leave from the joint MPP / MBA program at the Harvard Kennedy School of Government and Harvard Business School.</p>
               </GridItem>
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={eric} alt="..." />
-                <h2>Eric Gibbs</h2>
-                <h3>Mission Success Lead</h3>
 
-                <p>Eric Gibbs is a former Cryptologic Warfare Officer in the Navy with experience in both Intelligence and Operations roles. He provided signals intelligence analysis support to global military and intelligence community operations and deployed to the Middle East to conduct Information and Space Operations. He holds a BS from the U.S. Naval Academy where he studied Quantitative Economics.</p>
-              </GridItem>
 
             </GridContainer>
           </div>
@@ -169,6 +172,13 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
             <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={eric} alt="..." />
+                <h2>Eric Gibbs</h2>
+                <h3>Mission Success Lead</h3>
+
+                <p>Eric Gibbs is a former Cryptologic Warfare Officer in the Navy with experience in both Intelligence and Operations roles. He provided signals intelligence analysis support to global military and intelligence community operations and deployed to the Middle East to conduct Information and Space Operations. He holds a BS from the U.S. Naval Academy where he studied Quantitative Economics.</p>
+              </GridItem>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={alex} alt="..." />
                 <h2>Alex Williams</h2>
@@ -193,14 +203,7 @@ class People extends React.Component {
                 <p>Will Golinkin was born and raised in Houston, TX. After graduating from Dickinson College in 2013, he spent a year working in asset management for J.P. Morgan in Houston. He then joined the Marine Corps, where he served five years as a Communications Officer and Platoon Commander at 1st Battalion, 5th Marine Regiment. After transitioning out of the military, Will graduated from the Stanford Graduate School of Business, where he was introduced to the founding team at Vannevar Labs.</p>
               </GridItem>
               
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={scott} alt="..." />
-                <h2>Scott McCreary</h2>
-                <h3>Software Engineer</h3>
 
-                <p>Scott McCreary is a Fullstack Software Engineer. He previously worked at Grailed, a peer-to-peer menswear marketplace, where he helped build best-in-class digital item authentication.</p>
-                <p>In a previous life, Scott was a musical theater actor (Dirty Dancing) and professional cellist (The Tonight Show, New Haven Symphony). He is the co-founder of Artists Who Code, a volunteer organization that helps artists learn to code and land jobs in tech.</p>
-              </GridItem>
 
             </GridContainer>
           </div>
@@ -209,6 +212,14 @@ class People extends React.Component {
         <div id="bio-holder-next">
         <div className={classes.container}>
             <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={scott} alt="..." />
+                <h2>Scott McCreary</h2>
+                <h3>Software Engineer</h3>
+
+                <p>Scott McCreary is a Fullstack Software Engineer. He previously worked at Grailed, a peer-to-peer menswear marketplace, where he helped build best-in-class digital item authentication.</p>
+                <p>In a previous life, Scott was a musical theater actor (Dirty Dancing) and professional cellist (The Tonight Show, New Haven Symphony). He is the co-founder of Artists Who Code, a volunteer organization that helps artists learn to code and land jobs in tech.</p>
+              </GridItem>
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={joseph} alt="..." />
                 <h2>Joseph Lombardo</h2>
@@ -230,13 +241,7 @@ class People extends React.Component {
 
                   <p>Nate Diamond was an early software engineer at WELL Health, where he led development of foundational product capabilities and helped grow the engineering team. Before that, he graduated with a BS in Computer Science from UC Santa Barbara, where he worked on a variety of projects including work with the Department of Computational Neuroscience & leading development of the student-built interactive campus map. He was also previously a junior software developer for Octane5, where he scraped location data for more than 100,000 retail storefronts.</p>
                 </GridItem>
-                <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-                <img defer src={cane} alt="..." />
-                  <h2>Cane Punma</h2>
-                  <h3>Software Engineer</h3>
 
-                  <p>Cane Punma was previously a Machine Learning Scientist at PwC and Landis. At PwC, he helped build their Artificial Intelligence Research Team and products. At Landis, he helped build a product that coached clients to become homeowners as quickly as possible. Prior to that, Cane studied Industrial Engineering and Computer Science at Georgia Tech in Atlanta.</p>
-                </GridItem>
             </GridContainer>
           </div>
         </div>
@@ -244,6 +249,13 @@ class People extends React.Component {
         <div id="bio-holder">
         <div className={classes.container}>
         <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
+        <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={cane} alt="..." />
+                  <h2>Cane Punma</h2>
+                  <h3>Software Engineer</h3>
+
+                  <p>Cane Punma was previously a Machine Learning Scientist at PwC and Landis. At PwC, he helped build their Artificial Intelligence Research Team and products. At Landis, he helped build a product that coached clients to become homeowners as quickly as possible. Prior to that, Cane studied Industrial Engineering and Computer Science at Georgia Tech in Atlanta.</p>
+                </GridItem>
         <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <img defer src={aaron_lee} alt="..." />
                   <h2>Aaron Lee</h2>
