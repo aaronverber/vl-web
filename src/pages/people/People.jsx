@@ -203,7 +203,7 @@ class People extends React.Component {
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={aubrey} alt="..." />
                 <h2>Aubrey Manes</h2>
-                <h3>Mission Development Lead</h3>
+                <h3>Mission Success Lead</h3>
 
                 <p>Aubrey Manes is a former Navy intelligence officer with over a decade of experience providing intelligence and sensitive activity support to Navy and joint forces. She served tours in special operations, at the Pentagon, and aboard deployed ships. Aubrey graduated from the U.S. Naval Academy with a B.S. in Political Science.</p>
               </GridItem>              
@@ -222,7 +222,7 @@ class People extends React.Component {
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={kainoa} alt="..." />
                 <h2>Kainoa Ho</h2>
-                <h3>Mission Development Lead</h3>
+                <h3>Mission Success Lead</h3>
 
                 <p>Kainoa Ho is a former Air Force Intelligence Officer with the majority of his career spent in the Indo-Pacific and European theaters where he specialized in analysis, mission planning, and tactics development. He holds a B.S. from the US. Air Force Academy in Economics and is a graduate of the USAF Weapons School.</p>
               </GridItem>
@@ -235,14 +235,6 @@ class People extends React.Component {
                 <p>Adam Mangen is a former Army Signals Intelligence Officer with experience providing 24/7 intelligence support to global crises events, personnel recovery, and time-sensitive military and intelligence community operations. He served as a Mission Team Lead for the U.S. Government’s Hostage Recovery Fusion Cell before leaving the Army to join Deloitte as a Robotics & Intelligent Automation consultant in the government sector.</p>
                 <p>Adam holds a B.A. from The Ohio State University, where he studied Security and Intelligence and Farsi.</p>
               </GridItem>
-
-              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={jarryd} alt="..." />
-                <h2>Jarryd Allison</h2>
-                <h3>Mission Development Lead</h3>
-
-                <p>Jarryd Allison is a former Marine Intelligence and Special Operations Officer and was one of the first hires at Figure developing financial products. He is coming from Lockheed Martin where he worked in Special Programs as a Telemetry and Commanding Systems Engineer. He has a degree in Aerospace Engineering and is currently pursuing an MS in Computer Science from the University of Colorado.</p>
-              </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={scott} alt="..." />
                 <h2>Scott McCreary</h2>
@@ -252,6 +244,14 @@ class People extends React.Component {
                 <p>In a previous life, Scott was a musical theater actor (Dirty Dancing) and professional cellist (The Tonight Show, New Haven Symphony). He is the co-founder of Artists Who Code, a volunteer organization that helps artists learn to code and land jobs in tech.</p>
               </GridItem>
 
+              <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={joseph} alt="..." />
+                <h2>Joseph Lombardo</h2>
+                <h3>Software Engineer</h3>
+
+                <p>Joseph Lombardo was born and raised in Stokesdale, NC. He has been working in the DevOps and Software Engineering space for well over a decade. Prior to Vannevar Labs, Joseph was a lead engineer at NetFoundry, Inc. where he helped build the core network and security automation platform.</p>
+              </GridItem>  
+
             </GridContainer>
           </div>
         </div>
@@ -260,13 +260,7 @@ class People extends React.Component {
         <div className={classes.container}>
         <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
 
-        <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={joseph} alt="..." />
-                <h2>Joseph Lombardo</h2>
-                <h3>Software Engineer</h3>
 
-                <p>Joseph Lombardo was born and raised in Stokesdale, NC. He has been working in the DevOps and Software Engineering space for well over a decade. Prior to Vannevar Labs, Joseph was a lead engineer at NetFoundry, Inc. where he helped build the core network and security automation platform.</p>
-              </GridItem>  
             <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={ngoc} alt="..." />
                 <h2>Ngoc Do</h2>
@@ -288,7 +282,13 @@ class People extends React.Component {
 
                   <p>Cane Punma was previously a Machine Learning Scientist at PwC and Landis. At PwC, he helped build their Artificial Intelligence Research Team and products. At Landis, he helped build a product that coached clients to become homeowners as quickly as possible. Prior to that, Cane studied Industrial Engineering and Computer Science at Georgia Tech in Atlanta.</p>
                 </GridItem>
+                <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+                <img defer src={aaron_lee} alt="..." />
+                  <h2>Aaron Lee</h2>
+                  <h3>Data Operations Engineer</h3>
 
+                  <p>Aaron Lee is a former Navy helicopter pilot with 12 years of experience in STEM education. He founded after-school coding programs for at-risk teens and developed multiple world-class youth robotics programs. He holds a BS from the U.S. Naval Academy where he studied Systems Engineering.</p>
+                </GridItem>
             </GridContainer>
           </div>
         </div>
@@ -297,13 +297,7 @@ class People extends React.Component {
         <div className={classes.container}>
             <GridContainer style = {{maxWidth: "1440px", margin: "auto"}}>
 
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-                <img defer src={aaron_lee} alt="..." />
-                  <h2>Aaron Lee</h2>
-                  <h3>Data Operations Engineer</h3>
 
-                  <p>Aaron Lee is a former Navy helicopter pilot with 12 years of experience in STEM education. He founded after-school coding programs for at-risk teens and developed multiple world-class youth robotics programs. He holds a BS from the U.S. Naval Academy where he studied Systems Engineering.</p>
-                </GridItem>
         <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
                 <img defer src={harrison} alt="..." />
                   <h2>Harrison Nguyen</h2>
