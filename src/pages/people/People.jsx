@@ -149,20 +149,21 @@ class People extends React.Component {
                 <p>Helen Kruskamp is a Human Resources professional with a passion for empowering individuals, teams, and organizations to achieve their highest potential for working efficiently and effectively in solving real world problems through technology. Prior to joining Vannevar Labs she helped build out Spreedly's people-first HR practices and led recruiting. Helen holds an M.Ed. in professional counseling from the University of Georgia. She started her career as a school counselor before transitioning her people skills to the business sector.
 </p>
               </GridItem>
-            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
-              <img defer src={nathan} alt="..." />
-                <h2>Nathan Hartman</h2>
-                <h3>Engineering Manager</h3>
-
-                <p>Nathan Hartman has more than a decade of experience as a software developer, where he’s worked on everything from frontend to embedded systems at several companies, including a company he co-founded as CTO.</p>
-              </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
             <img defer src={nate} alt="..." />
                 <h2>Nate Bush</h2>
-                <h3>Engineering Manager</h3>
+                <h3>Engineering Manager, Machine Learning</h3>
 
                 <p>Nate Bush spent 5 years as a machine learning engineer and as manager at Apple, where his team deployed machine learning models that impacted Apple’s over 1-billion device users.</p>
               </GridItem>
+            <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
+              <img defer src={nathan} alt="..." />
+                <h2>Nathan Hartman</h2>
+                <h3>Senior Software Engineeer</h3>
+
+                <p>Nathan Hartman has more than a decade of experience as a software developer, where he’s worked on everything from frontend to embedded systems at several companies, including a company he co-founded as CTO.</p>
+              </GridItem>
+
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={nick} alt="..." />
                 <h2>Nick Hanson</h2>

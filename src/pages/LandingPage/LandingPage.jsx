@@ -53,11 +53,6 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
-                <p id="alert">
-                  <a target="_blank" href="https://medium.com/@Vannevar_Labs/vannevar-labs-raises-12m-in-series-a-funding-380ce002a676"><b>VANNEVAR LABS</b> raises $12M in Series A Funding  <b>&#8594;</b></a>
-                </p>
-              </GridItem>
-              <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
               <img defer src={shed} id="shed" alt="Vannevar Decrypt" />
               </GridItem>
             </GridContainer>
@@ -112,6 +107,10 @@ class LandingPage extends React.Component {
             </GridItem>
           </GridContainer>
           <GridContainer>
+          <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
+              <h3><a target="_blank" rel="noreferrer" href="https://medium.com/@brettgranberg/how-to-invent-defense-products-b94c0b1325ad">Blog: How to Invent Defense Products</a></h3>
+              <h4>Medium, February 18, 2022</h4>
+            </GridItem>
           <GridItem xs={12} sm={12} md={12} lg={12} xl={12}>
               <h3><a target="_blank" rel="noreferrer" href="https://www.prnewswire.com/news-releases/vannevar-labs-announces-12m-series-a-funding-round-301362871.html">Vannevar Labs Announces $12M Series A Funding Round</a></h3>
               <h4>Cision PR Newswire, August 25, 2021</h4>
