@@ -11,15 +11,13 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
-import scott_s from "assets/img/faces/scott_s.jpg";
-import erin from "assets/img/faces/erin.jpg";
+import erin from "assets/img/faces/erin_update.jpg";
 
 import nathan from "assets/img/faces/nathan.jpg";
 import nate from "assets/img/faces/nate.jpg";
 import nick from "assets/img/faces/nick.jpg";
 import eric from "assets/img/faces/eric.jpg";
 
-import alex from "assets/img/faces/alex.jpg";
 import scott from "assets/img/faces/scott.jpg";
 import ngoc from "assets/img/faces/ngoc.jpg";
 
@@ -41,9 +39,7 @@ import helen from "assets/img/faces/helen.jpg";
 import deven from "assets/img/faces/deven.jpg";
 import jon from "assets/img/faces/jon.jpg";
 
-import ian from "assets/img/faces/ian.jpg";
 import john from 'assets/img/faces/john.jpg';
-import danny from "assets/img/faces/danny.jpg";
 
 import culture from "assets/img/culture.png";
 
@@ -122,7 +118,8 @@ class People extends React.Component {
                 <h2>Erin Biggers</h2>
                 <h3>Director of Mission Success</h3>
 
-                <p>Erin Biggers has over a decade of experience as an intelligence analyst working in operations support, first as a USAF Intelligence Officer and then as a Mission Team Lead for a national security program. She also worked as a budget analyst and legislative policy lead prior to joining Vannevar Labs. She is a distinguished graduate of the U.S. Air Force Academy and earned a Masters in Public Policy from the University of Maryland.</p>
+                <p>Erin has over 12 years of experience as an intelligence analyst, first as an Air Force Intelligence Officer working in operations support and then as a Mission Team Lead for a national security program. She also worked as a fiscal analyst and legislative policy lead prior to joining Vannevar Labs.</p>
+                <p>She is a distinguished graduate of the U.S. Air Force Academy and earned a Masters in Public Policy from the University of Maryland.</p>
               </GridItem>
               <GridItem className="bio" xs={12} sm={6} md={6} lg={3} xl={3} style = {{marginBottom: "50px"}}>
               <img defer src={seanna} alt="..." />

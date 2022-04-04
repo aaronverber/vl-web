@@ -13,7 +13,7 @@ import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/t
 
 import brett from "assets/img/faces/brett.jpg";
 import nini from "assets/img/faces/nini.jpg";
-import erin from "assets/img/faces/erin.jpg";
+import erin from "assets/img/faces/erin_update.jpg";
 import nate from "assets/img/faces/nate.jpg";
 import seanna from "assets/img/faces/seanna.jpg";
 import helen from "assets/img/faces/helen.jpg";
